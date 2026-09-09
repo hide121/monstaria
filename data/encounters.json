@@ -1,0 +1,1421 @@
+[
+  {
+    "areaId": "verdant_meadow",
+    "entries": [
+      {
+        "monsterId": "MON001",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON003",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON021",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON023",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON041",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON043",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON061",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON063",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON080",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON097",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON099",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON117",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON119",
+        "weight": 22,
+        "levelRange": [
+          1,
+          6
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      }
+    ],
+    "encounterMode": "symbol",
+    "respawnSeconds": 18
+  },
+  {
+    "areaId": "echo_forest",
+    "entries": [
+      {
+        "monsterId": "MON002",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON004",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON005",
+        "weight": 20,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON006",
+        "weight": 20,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON007",
+        "weight": 20,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON008",
+        "weight": 20,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON022",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON024",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON025",
+        "weight": 20,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON026",
+        "weight": 20,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON042",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON044",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON062",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON079",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON081",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON098",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON100",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON118",
+        "weight": 22,
+        "levelRange": [
+          5,
+          11
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      }
+    ],
+    "encounterMode": "symbol",
+    "respawnSeconds": 18
+  },
+  {
+    "areaId": "crimson_canyon",
+    "entries": [
+      {
+        "monsterId": "MON009",
+        "weight": 18,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON010",
+        "weight": 18,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON011",
+        "weight": 18,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON027",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON028",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON029",
+        "weight": 18,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON031",
+        "weight": 18,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON045",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON046",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON047",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON048",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON049",
+        "weight": 18,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON064",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON065",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON066",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON082",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON083",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      },
+      {
+        "monsterId": "MON084",
+        "weight": 20,
+        "levelRange": [
+          9,
+          17
+        ],
+        "groupSize": [
+          1,
+          3
+        ]
+      }
+    ],
+    "encounterMode": "symbol",
+    "respawnSeconds": 18
+  },
+  {
+    "areaId": "mist_lantern_marsh",
+    "entries": [
+      {
+        "monsterId": "MON012",
+        "weight": 16,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON013",
+        "weight": 16,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON014",
+        "weight": 16,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON032",
+        "weight": 16,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON033",
+        "weight": 16,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON034",
+        "weight": 16,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON050",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON051",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON053",
+        "weight": 16,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON054",
+        "weight": 16,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON067",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON068",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON069",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON085",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON086",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON087",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON105",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON106",
+        "weight": 18,
+        "levelRange": [
+          15,
+          23
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      }
+    ],
+    "encounterMode": "symbol",
+    "respawnSeconds": 18
+  },
+  {
+    "areaId": "star_iron_ruins",
+    "entries": [
+      {
+        "monsterId": "MON015",
+        "weight": 14,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON036",
+        "weight": 14,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON055",
+        "weight": 14,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON056",
+        "weight": 14,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON070",
+        "weight": 16,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON071",
+        "weight": 16,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON072",
+        "weight": 16,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON073",
+        "weight": 14,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON074",
+        "weight": 14,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON088",
+        "weight": 16,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON089",
+        "weight": 16,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON109",
+        "weight": 16,
+        "levelRange": [
+          21,
+          29
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      }
+    ],
+    "encounterMode": "symbol",
+    "respawnSeconds": 18
+  },
+  {
+    "areaId": "silver_pass",
+    "entries": [
+      {
+        "monsterId": "MON012",
+        "weight": 16,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON013",
+        "weight": 16,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          2
+        ]
+      },
+      {
+        "monsterId": "MON017",
+        "weight": 6,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON018",
+        "weight": 6,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON037",
+        "weight": 6,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON038",
+        "weight": 6,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON091",
+        "weight": 14,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON092",
+        "weight": 14,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON111",
+        "weight": 14,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON112",
+        "weight": 14,
+        "levelRange": [
+          27,
+          34
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      }
+    ],
+    "encounterMode": "symbol",
+    "respawnSeconds": 18
+  },
+  {
+    "areaId": "crownfire_volcano",
+    "entries": [
+      {
+        "monsterId": "MON057",
+        "weight": 6,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON058",
+        "weight": 6,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON075",
+        "weight": 6,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON091",
+        "weight": 14,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON092",
+        "weight": 14,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON093",
+        "weight": 6,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON129",
+        "weight": 14,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON130",
+        "weight": 14,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON141",
+        "weight": 14,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON142",
+        "weight": 14,
+        "levelRange": [
+          32,
+          39
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      }
+    ],
+    "encounterMode": "symbol",
+    "respawnSeconds": 18
+  },
+  {
+    "areaId": "sky_ring_tower",
+    "entries": [
+      {
+        "monsterId": "MON059",
+        "weight": 5,
+        "levelRange": [
+          37,
+          43
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON077",
+        "weight": 5,
+        "levelRange": [
+          37,
+          43
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON094",
+        "weight": 6,
+        "levelRange": [
+          37,
+          43
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON113",
+        "weight": 6,
+        "levelRange": [
+          37,
+          43
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON114",
+        "weight": 6,
+        "levelRange": [
+          37,
+          43
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON131",
+        "weight": 6,
+        "levelRange": [
+          37,
+          43
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      }
+    ],
+    "encounterMode": "symbol",
+    "respawnSeconds": 18
+  },
+  {
+    "areaId": "primordial_garden",
+    "entries": [
+      {
+        "monsterId": "MON057",
+        "weight": 6,
+        "levelRange": [
+          42,
+          50
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON058",
+        "weight": 6,
+        "levelRange": [
+          42,
+          50
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON075",
+        "weight": 6,
+        "levelRange": [
+          42,
+          50
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON093",
+        "weight": 6,
+        "levelRange": [
+          42,
+          50
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON094",
+        "weight": 6,
+        "levelRange": [
+          42,
+          50
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON095",
+        "weight": 5,
+        "levelRange": [
+          42,
+          50
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON113",
+        "weight": 6,
+        "levelRange": [
+          42,
+          50
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      },
+      {
+        "monsterId": "MON115",
+        "weight": 5,
+        "levelRange": [
+          42,
+          50
+        ],
+        "groupSize": [
+          1,
+          1
+        ]
+      }
+    ],
+    "encounterMode": "symbol",
+    "respawnSeconds": 18
+  }
+]

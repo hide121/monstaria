@@ -1,0 +1,777 @@
+[
+  {
+    "id": "EV001",
+    "chapter": 0,
+    "areaId": "linea_village",
+    "trigger": "new_game",
+    "title": "共鳴祭の朝",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ",
+      "ガルド"
+    ],
+    "lines": [
+      {
+        "speaker": "ガルド",
+        "text": "ミレナ、祭りの前に牧場を見てきてくれんか。今日は魔物たちも妙にそわそわしておる。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "わかった。いつもより風の音も落ち着かない気がするね。"
+      },
+      {
+        "speaker": "ガルド",
+        "text": "お前は昔から、魔物の機嫌を読むのが上手い。焦らず、いつも通りでいい。"
+      }
+    ],
+    "setsFlags": [
+      "story_start"
+    ]
+  },
+  {
+    "id": "EV002",
+    "chapter": 0,
+    "areaId": "verdant_meadow",
+    "trigger": "first_field_entry",
+    "title": "最初の相棒",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ",
+      "ガルド"
+    ],
+    "lines": [
+      {
+        "speaker": "ガルド",
+        "text": "旅の相棒を一体選びなさい。どの子を選んでも、残りの子とはいずれまた出会える。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "うん。強さだけじゃなくて、一緒に歩きたいと思える子を選ぶよ。"
+      }
+    ],
+    "choice": {
+      "type": "starter",
+      "monsterIds": [
+        "MON001",
+        "MON021",
+        "MON041"
+      ]
+    },
+    "setsFlags": [
+      "starter_chosen"
+    ]
+  },
+  {
+    "id": "EV003",
+    "chapter": 0,
+    "areaId": "verdant_meadow",
+    "trigger": "first_wild_battle",
+    "title": "スカウト",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ"
+    ],
+    "lines": [
+      {
+        "speaker": "SYSTEM",
+        "text": "敵の心がこちらへ向いている。『スカウト』で仲間に誘える。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "怖がらせるんじゃなくて、こっちの力を見せればいいんだね。"
+      }
+    ],
+    "setsFlags": [
+      "scout_tutorial_done"
+    ]
+  },
+  {
+    "id": "EV004",
+    "chapter": 1,
+    "areaId": "linea_village",
+    "trigger": "return_after_meadow",
+    "title": "砕けた星環",
+    "spoilerTier": "minor",
+    "participants": [
+      "ミレナ",
+      "ガルド",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "村の共鳴石だけじゃない。各地の石碑も同時に乱れているらしい。"
+      },
+      {
+        "speaker": "ガルド",
+        "text": "このままでは魔物たちの縄張りまで崩れる。樹海の共鳴核を確かめてきてほしい。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "私にできることなら行く。魔物たちも、きっと困ってる。"
+      }
+    ],
+    "setsFlags": [
+      "meadow_gate_open"
+    ]
+  },
+  {
+    "id": "EV005",
+    "chapter": 1,
+    "areaId": "echo_forest",
+    "trigger": "boss01_defeated",
+    "title": "命をつなぐ泉",
+    "spoilerTier": "minor",
+    "participants": [
+      "ミレナ",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "この泉は二つの魔物の力を、新しい命へ組み替える場所だったんだ。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "消えてしまうんじゃなくて、力や技が次の子に残る……。"
+      },
+      {
+        "speaker": "エルノ",
+        "text": "そう。古い記録では『配合』と呼ばれている。試してみよう。"
+      }
+    ],
+    "setsFlags": [
+      "synthesis_unlocked",
+      "forest_core_restored"
+    ]
+  },
+  {
+    "id": "EV006",
+    "chapter": 1,
+    "areaId": "linea_village",
+    "trigger": "first_synthesis",
+    "title": "新しい命",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ",
+      "ガルド"
+    ],
+    "lines": [
+      {
+        "speaker": "ガルド",
+        "text": "姿は変わっても、親から受け継いだものは残る。配合は別れではなく、旅の続きじゃ。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "じゃあ、この子にもあの子たちの旅が続いてるんだね。"
+      }
+    ],
+    "setsFlags": [
+      "first_synthesis_done"
+    ]
+  },
+  {
+    "id": "EV007",
+    "chapter": 2,
+    "areaId": "crimson_canyon",
+    "trigger": "area_midpoint",
+    "title": "赤晶の脈動",
+    "spoilerTier": "minor",
+    "participants": [
+      "ミレナ",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "赤晶が共鳴核と同じ周期で光ってる。自然現象じゃない。誰かが力を集めている。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "魔物が荒れていたのも、そのせい？"
+      },
+      {
+        "speaker": "エルノ",
+        "text": "可能性は高い。先へ急ごう。"
+      }
+    ],
+    "setsFlags": [
+      "canyon_mystery_seen"
+    ]
+  },
+  {
+    "id": "EV008",
+    "chapter": 2,
+    "areaId": "crimson_canyon",
+    "trigger": "boss02_defeated",
+    "title": "峡谷の道",
+    "spoilerTier": "minor",
+    "participants": [
+      "ミレナ",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "ミレナ",
+        "text": "落ち着いた……。あの子も、最初から怒っていたわけじゃなかったんだ。"
+      },
+      {
+        "speaker": "エルノ",
+        "text": "共鳴の乱れが弱まった。次は湿原だ。そこに古い錬金工房がある。"
+      }
+    ],
+    "setsFlags": [
+      "canyon_pass"
+    ]
+  },
+  {
+    "id": "EV009",
+    "chapter": 3,
+    "areaId": "mist_lantern_marsh",
+    "trigger": "meet_fia",
+    "title": "湿原の錬金師",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ",
+      "フィア"
+    ],
+    "lines": [
+      {
+        "speaker": "フィア",
+        "text": "その素材、捨てるにはもったいないよ。魔物の毛も鉱石も、混ぜ方次第で立派な道具になる。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "配合みたいに？"
+      },
+      {
+        "speaker": "フィア",
+        "text": "似てるけど、こっちはもっと気楽。失敗しないレシピだけ教えてあげる。"
+      }
+    ],
+    "setsFlags": [
+      "alchemy_unlocked"
+    ]
+  },
+  {
+    "id": "EV010",
+    "chapter": 3,
+    "areaId": "mist_lantern_marsh",
+    "trigger": "boss03_defeated",
+    "title": "霧灯が照らすもの",
+    "spoilerTier": "minor",
+    "participants": [
+      "ミレナ",
+      "フィア",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "フィア",
+        "text": "霧の流れが戻った。これなら遺跡への道も見える。"
+      },
+      {
+        "speaker": "エルノ",
+        "text": "そして、あそこには星環の設計記録が残っているはずだ。"
+      }
+    ],
+    "setsFlags": [
+      "marsh_beacon_lit"
+    ]
+  },
+  {
+    "id": "EV011",
+    "chapter": 4,
+    "areaId": "star_iron_ruins",
+    "trigger": "archive_room",
+    "title": "古代の記録",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "星環は魔物を閉じ込める封印じゃない。人と魔物、両方の心を落ち着かせる『調律器』だった。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "じゃあ、壊れたまま力だけ集めたら……。"
+      },
+      {
+        "speaker": "エルノ",
+        "text": "調律ではなく支配になる。記録の続きを探そう。"
+      }
+    ],
+    "setsFlags": [
+      "truth_fragment_one"
+    ]
+  },
+  {
+    "id": "EV012",
+    "chapter": 4,
+    "areaId": "star_iron_ruins",
+    "trigger": "boss04_defeated",
+    "title": "星鉄の鍵",
+    "spoilerTier": "minor",
+    "participants": [
+      "ミレナ",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "これが北門を開く星鉄鍵だ。白銀峠の先に、もう一つの共鳴塔がある。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "行こう。誰かが先に全部の力を集める前に。"
+      }
+    ],
+    "setsFlags": [
+      "ruins_key_obtained"
+    ]
+  },
+  {
+    "id": "EV013",
+    "chapter": 5,
+    "areaId": "silver_pass",
+    "trigger": "area_midpoint",
+    "title": "雪上の忠告",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "サイラス"
+    ],
+    "lines": [
+      {
+        "speaker": "サイラス",
+        "text": "君のやり方は優しい。しかし、魔物の意志に任せるだけでは再び乱れが起こる。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "だからって、全部を縛るの？"
+      },
+      {
+        "speaker": "サイラス",
+        "text": "縛るのではない。世界を安全な形へ整える。それが文明の役目だ。"
+      }
+    ],
+    "setsFlags": [
+      "cyrus_intent_seen"
+    ]
+  },
+  {
+    "id": "EV014",
+    "chapter": 5,
+    "areaId": "silver_pass",
+    "trigger": "boss05_defeated",
+    "title": "四体の記憶",
+    "spoilerTier": "minor",
+    "participants": [
+      "エルノ",
+      "ミレナ"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "この碑文、二体だけじゃない。四つの祖先の組み合わせを記録している。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "配合にも、まだ先があるんだ。"
+      },
+      {
+        "speaker": "エルノ",
+        "text": "祖先の組み合わせそのものが鍵になる配合だ。"
+      }
+    ],
+    "setsFlags": [
+      "four_parent_synthesis_unlocked",
+      "silver_seal_broken"
+    ]
+  },
+  {
+    "id": "EV015",
+    "chapter": 6,
+    "areaId": "crownfire_volcano",
+    "trigger": "boss06_defeated",
+    "title": "火冠の紋章",
+    "spoilerTier": "minor",
+    "participants": [
+      "ミレナ",
+      "フィア"
+    ],
+    "lines": [
+      {
+        "speaker": "フィア",
+        "text": "最後の紋章が反応したよ。これで古塔への道を開けるはず。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "でも、サイラスもここまで来てる。急ごう。"
+      }
+    ],
+    "setsFlags": [
+      "crest_fire_claimed"
+    ]
+  },
+  {
+    "id": "EV016",
+    "chapter": 6,
+    "areaId": "crownfire_volcano",
+    "trigger": "boss07_defeated",
+    "title": "奪われた調律",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "サイラス",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "サイラス",
+        "text": "四つの紋章は揃った。古塔の中枢なら、世界中の魔物を一度に静められる。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "静めるんじゃない。あなたは、何も選べなくするつもりなんだ。"
+      },
+      {
+        "speaker": "サイラス",
+        "text": "自由より安全を選ぶ。それだけのことだ。"
+      }
+    ],
+    "setsFlags": [
+      "four_resonance_crests"
+    ]
+  },
+  {
+    "id": "EV017",
+    "chapter": 7,
+    "areaId": "sky_ring_tower",
+    "trigger": "tower_entry",
+    "title": "天環の古塔",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "中枢が起動してる。強引に共鳴を揃えたせいで、塔そのものが悲鳴を上げてる。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "止めよう。魔物も、人も、どっちも自分でいられるように。"
+      }
+    ],
+    "setsFlags": [
+      "tower_entered"
+    ]
+  },
+  {
+    "id": "EV018",
+    "chapter": 7,
+    "areaId": "sky_ring_tower",
+    "trigger": "boss08_defeated",
+    "title": "守護竜の沈黙",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "守護竜まで制御を拒んだ。中枢の出力が限界を超えてる。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "この先にサイラスがいる。"
+      }
+    ],
+    "setsFlags": [
+      "tower_core_open"
+    ]
+  },
+  {
+    "id": "EV019",
+    "chapter": 8,
+    "areaId": "sky_ring_tower",
+    "trigger": "final_chamber",
+    "title": "支配の終わり",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "サイラス"
+    ],
+    "lines": [
+      {
+        "speaker": "サイラス",
+        "text": "なぜ理解しない。意志があるから争う。ならば迷いそのものを消せばいい。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "迷うことも、選ぶことも、生きてるってことだよ。私は魔物たちからそれを奪わない。"
+      }
+    ],
+    "setsFlags": [
+      "final_confrontation"
+    ]
+  },
+  {
+    "id": "EV020",
+    "chapter": 8,
+    "areaId": "sky_ring_tower",
+    "trigger": "boss09_defeated",
+    "title": "星環の再調律",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "エルノ",
+      "フィア",
+      "サイラス"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "共鳴が戻っていく。命令じゃない、それぞれ違う音のままで。"
+      },
+      {
+        "speaker": "サイラス",
+        "text": "違う音のまま……世界が保てるというのか。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "保つんじゃなくて、一緒に作り続けるんだと思う。"
+      }
+    ],
+    "setsFlags": [
+      "main_ending"
+    ]
+  },
+  {
+    "id": "EV021",
+    "chapter": 8,
+    "areaId": "linea_village",
+    "trigger": "ending_return",
+    "title": "帰郷",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "ガルド",
+      "フィア",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "ガルド",
+        "text": "おかえり、ミレナ。ずいぶん賑やかな一行になったな。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "ただいま。まだ会えてない魔物も、試してない配合もたくさんあるよ。"
+      },
+      {
+        "speaker": "フィア",
+        "text": "じゃあ旅は終わりじゃないね。工房も新しいレシピを用意しておくよ。"
+      }
+    ],
+    "setsFlags": [
+      "postgame_unlocked"
+    ]
+  },
+  {
+    "id": "EV022",
+    "chapter": 9,
+    "areaId": "primordial_garden",
+    "trigger": "postgame_entry",
+    "title": "原初庭園",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "エルノ"
+    ],
+    "lines": [
+      {
+        "speaker": "エルノ",
+        "text": "古い記録では、ここは最初の調律師が魔物と暮らした場所らしい。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "だったら、まだ見たことのない配合の答えもありそうだね。"
+      }
+    ],
+    "setsFlags": [
+      "ss_synthesis_unlocked"
+    ]
+  },
+  {
+    "id": "EV023",
+    "chapter": 9,
+    "areaId": "primordial_garden",
+    "trigger": "secret_beast_defeated",
+    "title": "王獣の証",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ"
+    ],
+    "lines": [
+      {
+        "speaker": "ミレナ",
+        "text": "力だけじゃない。ここまで育ててきた全部を見られていた気がする。"
+      }
+    ],
+    "setsFlags": [
+      "secret_beast_cleared"
+    ]
+  },
+  {
+    "id": "EV024",
+    "chapter": 9,
+    "areaId": "primordial_garden",
+    "trigger": "postgame_final_defeated",
+    "title": "調律師の証",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ",
+      "ガルド"
+    ],
+    "lines": [
+      {
+        "speaker": "ガルド",
+        "text": "図鑑の数だけ出会いがあり、配合の数だけ旅が続いた。もう立派な調律師じゃ。"
+      },
+      {
+        "speaker": "ミレナ",
+        "text": "ううん。まだ全部は見てない。だから、もう少しだけ旅してくる。"
+      }
+    ],
+    "setsFlags": [
+      "postgame_complete"
+    ]
+  },
+  {
+    "id": "EV025",
+    "chapter": 1,
+    "areaId": "echo_forest",
+    "trigger": "wardrobe_chest_open",
+    "title": "旅装の宝箱",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ"
+    ],
+    "lines": [
+      {
+        "speaker": "ミレナ",
+        "text": "服が入ってる……。村に戻れば着替えられそう。"
+      }
+    ],
+    "rewards": [
+      "outfit_adventurer"
+    ]
+  },
+  {
+    "id": "EV026",
+    "chapter": 3,
+    "areaId": "mist_lantern_marsh",
+    "trigger": "wardrobe_chest_open",
+    "title": "月夜の衣装箱",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ"
+    ],
+    "lines": [
+      {
+        "speaker": "ミレナ",
+        "text": "ずいぶん遊び心のある衣装だね。……せっかくだし持って帰ろう。"
+      }
+    ],
+    "rewards": [
+      "outfit_bunny"
+    ]
+  },
+  {
+    "id": "EV027",
+    "chapter": 4,
+    "areaId": "star_iron_ruins",
+    "trigger": "wardrobe_chest_open",
+    "title": "星読みの衣",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ"
+    ],
+    "lines": [
+      {
+        "speaker": "ミレナ",
+        "text": "古いのに綺麗。星の刺繍まで残ってる。"
+      }
+    ],
+    "rewards": [
+      "outfit_mage"
+    ]
+  },
+  {
+    "id": "EV028",
+    "chapter": 5,
+    "areaId": "silver_pass",
+    "trigger": "wardrobe_chest_open",
+    "title": "冬支度",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ"
+    ],
+    "lines": [
+      {
+        "speaker": "ミレナ",
+        "text": "これは助かる。見た目だけでも暖かそう。"
+      }
+    ],
+    "rewards": [
+      "outfit_winter"
+    ]
+  },
+  {
+    "id": "EV029",
+    "chapter": 6,
+    "areaId": "crownfire_volcano",
+    "trigger": "wardrobe_chest_open",
+    "title": "夏色の衣装箱",
+    "spoilerTier": "safe",
+    "participants": [
+      "ミレナ"
+    ],
+    "lines": [
+      {
+        "speaker": "ミレナ",
+        "text": "火山で水着を見つけるとは思わなかったけど……涼しそうではあるかな。"
+      }
+    ],
+    "rewards": [
+      "outfit_swimsuit"
+    ]
+  },
+  {
+    "id": "EV030",
+    "chapter": 9,
+    "areaId": "primordial_garden",
+    "trigger": "wardrobe_chest_open",
+    "title": "魔物使いの正装",
+    "spoilerTier": "major",
+    "participants": [
+      "ミレナ"
+    ],
+    "lines": [
+      {
+        "speaker": "ミレナ",
+        "text": "少し立派すぎる気もするけど、ここまで来た記念にはちょうどいいね。"
+      }
+    ],
+    "rewards": [
+      "outfit_master"
+    ]
+  }
+]

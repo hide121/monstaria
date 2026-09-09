@@ -1,0 +1,305 @@
+[
+  {
+    "id": "BOSS01",
+    "monsterId": "MON052",
+    "areaId": "echo_forest",
+    "level": 9,
+    "statScale": 0.72,
+    "phaseCount": 1,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 435,
+      "exp": 675,
+      "storyFlag": "forest_core_restored",
+      "synthesisHintUnlock": "MON052",
+      "storyFlags": [
+        "forest_core_restored",
+        "defeated_mon052"
+      ]
+    },
+    "secret": false,
+    "spoilerTier": "minor",
+    "extraSkills": [
+      "earth_2",
+      "status_sleep"
+    ],
+    "skillSPPerNativeTree": 19
+  },
+  {
+    "id": "BOSS02",
+    "monsterId": "MON030",
+    "areaId": "crimson_canyon",
+    "level": 15,
+    "statScale": 0.78,
+    "phaseCount": 1,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 645,
+      "exp": 1005,
+      "storyFlag": "canyon_pass",
+      "synthesisHintUnlock": "MON030",
+      "storyFlags": [
+        "canyon_pass",
+        "defeated_mon030"
+      ]
+    },
+    "secret": false,
+    "spoilerTier": "minor",
+    "extraSkills": [
+      "fire_breath_2",
+      "strike"
+    ],
+    "skillSPPerNativeTree": 25
+  },
+  {
+    "id": "BOSS03",
+    "monsterId": "MON090",
+    "areaId": "mist_lantern_marsh",
+    "level": 21,
+    "statScale": 0.86,
+    "phaseCount": 1,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 855,
+      "exp": 1335,
+      "storyFlag": "marsh_beacon_lit",
+      "synthesisHintUnlock": "MON090",
+      "storyFlags": [
+        "marsh_beacon_lit",
+        "defeated_mon090"
+      ]
+    },
+    "secret": false,
+    "spoilerTier": "minor",
+    "extraSkills": [
+      "dark_2",
+      "status_silence"
+    ],
+    "skillSPPerNativeTree": 31
+  },
+  {
+    "id": "BOSS04",
+    "monsterId": "MON108",
+    "areaId": "star_iron_ruins",
+    "level": 27,
+    "statScale": 0.92,
+    "phaseCount": 1,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 1065,
+      "exp": 1665,
+      "storyFlag": "ruins_key_obtained",
+      "synthesisHintUnlock": "MON108",
+      "storyFlags": [
+        "ruins_key_obtained",
+        "defeated_mon108"
+      ]
+    },
+    "secret": false,
+    "spoilerTier": "minor",
+    "extraSkills": [
+      "def_up",
+      "heavy_crush"
+    ],
+    "skillSPPerNativeTree": 37
+  },
+  {
+    "id": "BOSS05",
+    "monsterId": "MON016",
+    "areaId": "silver_pass",
+    "level": 32,
+    "statScale": 1.0,
+    "phaseCount": 1,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 1240,
+      "exp": 1940,
+      "storyFlag": "silver_seal_broken",
+      "synthesisHintUnlock": "MON016",
+      "storyFlags": [
+        "silver_seal_broken",
+        "defeated_mon016"
+      ]
+    },
+    "secret": false,
+    "spoilerTier": "minor",
+    "extraSkills": [
+      "quick_slash",
+      "wind_2"
+    ],
+    "skillSPPerNativeTree": 42
+  },
+  {
+    "id": "BOSS06",
+    "monsterId": "MON035",
+    "areaId": "crownfire_volcano",
+    "level": 37,
+    "statScale": 1.05,
+    "phaseCount": 1,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 1415,
+      "exp": 2215,
+      "storyFlag": "crest_fire_claimed",
+      "synthesisHintUnlock": "MON035",
+      "storyFlags": [
+        "crest_fire_claimed",
+        "defeated_mon035"
+      ]
+    },
+    "secret": false,
+    "spoilerTier": "minor",
+    "extraSkills": [
+      "fire_3",
+      "fire_breath_2"
+    ],
+    "skillSPPerNativeTree": 47
+  },
+  {
+    "id": "BOSS07",
+    "monsterId": "MON076",
+    "areaId": "crownfire_volcano",
+    "level": 39,
+    "statScale": 1.08,
+    "phaseCount": 1,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 1485,
+      "exp": 2325,
+      "storyFlag": "four_resonance_crests",
+      "synthesisHintUnlock": "MON076",
+      "storyFlags": [
+        "four_resonance_crests",
+        "defeated_mon076"
+      ]
+    },
+    "secret": false,
+    "spoilerTier": "minor",
+    "extraSkills": [
+      "dark_3",
+      "heavy_crush",
+      "atk_down"
+    ],
+    "skillSPPerNativeTree": 49
+  },
+  {
+    "id": "BOSS08",
+    "monsterId": "MON039",
+    "areaId": "sky_ring_tower",
+    "level": 41,
+    "statScale": 1.12,
+    "phaseCount": 2,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 1555,
+      "exp": 2435,
+      "storyFlag": "tower_core_open",
+      "synthesisHintUnlock": "MON039",
+      "storyFlags": [
+        "tower_core_open",
+        "defeated_mon039"
+      ]
+    },
+    "secret": false,
+    "spoilerTier": "major",
+    "extraSkills": [
+      "light_3",
+      "dragon_roar",
+      "fire_breath_2"
+    ],
+    "skillSPPerNativeTree": 51
+  },
+  {
+    "id": "BOSS09",
+    "monsterId": "MON078",
+    "areaId": "sky_ring_tower",
+    "level": 43,
+    "statScale": 1.18,
+    "phaseCount": 2,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 1625,
+      "exp": 2545,
+      "storyFlag": "main_ending",
+      "synthesisHintUnlock": "MON078",
+      "storyFlags": [
+        "main_ending",
+        "defeated_mon078"
+      ]
+    },
+    "secret": false,
+    "spoilerTier": "major",
+    "extraSkills": [
+      "abyss_burst",
+      "perfect_guard",
+      "break_wave"
+    ],
+    "skillSPPerNativeTree": 53
+  },
+  {
+    "id": "BOSS10",
+    "monsterId": "MON020",
+    "areaId": "primordial_garden",
+    "level": 48,
+    "statScale": 1.25,
+    "phaseCount": 1,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 1800,
+      "exp": 2820,
+      "storyFlag": "secret_beast_cleared",
+      "synthesisHintUnlock": null,
+      "storyFlags": [
+        "secret_beast_cleared",
+        "defeated_mon020"
+      ]
+    },
+    "secret": true,
+    "spoilerTier": "major",
+    "extraSkills": [
+      "meteor_crash",
+      "battle_cry",
+      "counter_stance"
+    ],
+    "skillSPPerNativeTree": 58
+  },
+  {
+    "id": "BOSS11",
+    "monsterId": "MON150",
+    "areaId": "primordial_garden",
+    "level": 50,
+    "statScale": 1.35,
+    "phaseCount": 2,
+    "scoutable": false,
+    "aiProfile": "boss_adaptive",
+    "reward": {
+      "gold": 1870,
+      "exp": 2930,
+      "storyFlag": "postgame_complete",
+      "synthesisHintUnlock": null,
+      "storyFlags": [
+        "postgame_complete",
+        "defeated_mon150"
+      ]
+    },
+    "secret": true,
+    "spoilerTier": "major",
+    "extraSkills": [
+      "spirit_burst",
+      "perfect_guard",
+      "renew",
+      "battle_cry"
+    ],
+    "skillSPPerNativeTree": 60
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "maxLevel": 50,
+  "mainTargetHours": 10,
+  "postgameTargetHours": [
+    2,
+    5
+  ],
+  "segments": [
+    {
+      "id": "P0",
+      "time": "0-30m",
+      "areas": [
+        "verdant_meadow"
+      ],
+      "levelRange": [
+        1,
+        6
+      ],
+      "unlocks": [
+        "battle",
+        "scout",
+        "party",
+        "field_treasure"
+      ],
+      "monsterRanks": [
+        "F"
+      ],
+      "synthesisCap": null,
+      "skillComplexity": "1-2 basic lines",
+      "bossIds": []
+    },
+    {
+      "id": "P1",
+      "time": "30-75m",
+      "areas": [
+        "echo_forest"
+      ],
+      "levelRange": [
+        5,
+        11
+      ],
+      "unlocks": [
+        "synthesis",
+        "skill_inheritance",
+        "wardrobe"
+      ],
+      "monsterRanks": [
+        "F",
+        "E"
+      ],
+      "synthesisCap": "D",
+      "skillComplexity": "2 lines + first inheritance",
+      "bossIds": [
+        "BOSS01"
+      ]
+    },
+    {
+      "id": "P2",
+      "time": "75-125m",
+      "areas": [
+        "crimson_canyon"
+      ],
+      "levelRange": [
+        9,
+        17
+      ],
+      "unlocks": [
+        "synthesis_rank_C",
+        "recipe_hints"
+      ],
+      "monsterRanks": [
+        "E",
+        "D"
+      ],
+      "synthesisCap": "C",
+      "skillComplexity": "3-line selection begins",
+      "bossIds": [
+        "BOSS02"
+      ]
+    },
+    {
+      "id": "P3",
+      "time": "125-205m",
+      "areas": [
+        "mist_lantern_marsh"
+      ],
+      "levelRange": [
+        15,
+        23
+      ],
+      "unlocks": [
+        "alchemy",
+        "status_depth",
+        "synthesis_rank_B"
+      ],
+      "monsterRanks": [
+        "D",
+        "C"
+      ],
+      "synthesisCap": "B",
+      "skillComplexity": "status/support mixing",
+      "bossIds": [
+        "BOSS03"
+      ]
+    },
+    {
+      "id": "P4",
+      "time": "205-285m",
+      "areas": [
+        "star_iron_ruins"
+      ],
+      "levelRange": [
+        21,
+        29
+      ],
+      "unlocks": [
+        "special_synthesis_hints",
+        "synthesis_rank_A"
+      ],
+      "monsterRanks": [
+        "C"
+      ],
+      "synthesisCap": "A",
+      "skillComplexity": "advanced skill prerequisites visible",
+      "bossIds": [
+        "BOSS04"
+      ]
+    },
+    {
+      "id": "P5",
+      "time": "285-365m",
+      "areas": [
+        "silver_pass"
+      ],
+      "levelRange": [
+        27,
+        34
+      ],
+      "unlocks": [
+        "four_ancestor_synthesis"
+      ],
+      "monsterRanks": [
+        "B"
+      ],
+      "synthesisCap": "A",
+      "skillComplexity": "advanced trees begin",
+      "bossIds": [
+        "BOSS05"
+      ]
+    },
+    {
+      "id": "P6",
+      "time": "365-455m",
+      "areas": [
+        "crownfire_volcano"
+      ],
+      "levelRange": [
+        32,
+        39
+      ],
+      "unlocks": [
+        "boss_synthesis_hints",
+        "synthesis_rank_S"
+      ],
+      "monsterRanks": [
+        "B",
+        "A"
+      ],
+      "synthesisCap": "S",
+      "skillComplexity": "specialized builds",
+      "bossIds": [
+        "BOSS06",
+        "BOSS07"
+      ]
+    },
+    {
+      "id": "P7",
+      "time": "455-600m",
+      "areas": [
+        "sky_ring_tower"
+      ],
+      "levelRange": [
+        37,
+        43
+      ],
+      "unlocks": [
+        "ending",
+        "postgame_gate"
+      ],
+      "monsterRanks": [
+        "A",
+        "S"
+      ],
+      "synthesisCap": "S",
+      "skillComplexity": "final builds",
+      "bossIds": [
+        "BOSS08",
+        "BOSS09"
+      ]
+    },
+    {
+      "id": "POST",
+      "time": "600-900m",
+      "areas": [
+        "primordial_garden"
+      ],
+      "levelRange": [
+        42,
+        50
+      ],
+      "unlocks": [
+        "synthesis_rank_SS",
+        "secret_recipes",
+        "postgame_completion"
+      ],
+      "monsterRanks": [
+        "S",
+        "SS"
+      ],
+      "synthesisCap": "SS",
+      "skillComplexity": "optimized inherited builds",
+      "bossIds": [
+        "BOSS10",
+        "BOSS11"
+      ]
+    }
+  ],
+  "experience": {
+    "cumulativeFormula": "floor(26 * (level - 1)^1.72 * expGrowthFactor)",
+    "expGrowthFactorByRank": {
+      "F": 0.92,
+      "E": 0.95,
+      "D": 0.98,
+      "C": 1.0,
+      "B": 1.03,
+      "A": 1.06,
+      "S": 1.1,
+      "SS": 1.15
+    },
+    "reserveExpRate": 0.75,
+    "synthesisCatchup": {
+      "enabled": true,
+      "bonusExpMultiplier": 2.0,
+      "untilLevelFormula": "min(15, floor((parentALevel + parentBLevel) / 4))"
+    }
+  },
+  "skillPoints": {
+    "onLevelUpFormula": "2 + floor(level / 5)",
+    "bonusAtLevels": {
+      "10": 4,
+      "20": 6,
+      "30": 8,
+      "40": 10,
+      "50": 15
+    },
+    "synthesisInheritanceFraction": 0.25
+  },
+  "synthesisUnlocks": {
+    "synthesis_unlocked": {
+      "maxRank": "D"
+    },
+    "canyon_pass": {
+      "maxRank": "C"
+    },
+    "marsh_beacon_lit": {
+      "maxRank": "B"
+    },
+    "ruins_key_obtained": {
+      "maxRank": "A"
+    },
+    "four_resonance_crests": {
+      "maxRank": "S"
+    },
+    "main_ending": {
+      "maxRank": "SS"
+    }
+  }
+}

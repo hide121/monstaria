@@ -1,0 +1,361 @@
+[
+  {
+    "id": "ALC001",
+    "inputs": {
+      "herb": 2
+    },
+    "result": {
+      "itemId": "herb_plus",
+      "qty": 1
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC002",
+    "inputs": {
+      "ether_dust": 1,
+      "herb": 1
+    },
+    "result": {
+      "itemId": "mana_drop",
+      "qty": 1
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC003",
+    "inputs": {
+      "mana_drop": 2,
+      "mist_pearl": 1
+    },
+    "result": {
+      "itemId": "mana_flask",
+      "qty": 1
+    },
+    "unlockFlag": "marsh_beacon_lit"
+  },
+  {
+    "id": "ALC004",
+    "inputs": {
+      "bright_leaf": 2
+    },
+    "result": {
+      "itemId": "antidote",
+      "qty": 2
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC005",
+    "inputs": {
+      "iron_shard": 1,
+      "bright_leaf": 1
+    },
+    "result": {
+      "itemId": "wake_bell",
+      "qty": 1
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC006",
+    "inputs": {
+      "bright_leaf": 1,
+      "mist_pearl": 1,
+      "ether_dust": 1
+    },
+    "result": {
+      "itemId": "cure_charm",
+      "qty": 1
+    },
+    "unlockFlag": "marsh_beacon_lit"
+  },
+  {
+    "id": "ALC007",
+    "inputs": {
+      "star_fragment": 1,
+      "bright_leaf": 2
+    },
+    "result": {
+      "itemId": "life_leaf",
+      "qty": 1
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC008",
+    "inputs": {
+      "soft_fur": 1,
+      "herb": 1
+    },
+    "result": {
+      "itemId": "plain_meat",
+      "qty": 1
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC009",
+    "inputs": {
+      "plain_meat": 2,
+      "bright_leaf": 1
+    },
+    "result": {
+      "itemId": "spiced_meat",
+      "qty": 1
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC010",
+    "inputs": {
+      "spiced_meat": 2,
+      "star_fragment": 1
+    },
+    "result": {
+      "itemId": "royal_meat",
+      "qty": 1
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC011",
+    "inputs": {
+      "bright_leaf": 2,
+      "soft_fur": 1
+    },
+    "result": {
+      "itemId": "sweet_berry",
+      "qty": 2
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC012",
+    "inputs": {
+      "ether_dust": 2,
+      "star_fragment": 1
+    },
+    "result": {
+      "itemId": "shining_fruit",
+      "qty": 1
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC013",
+    "inputs": {
+      "iron_shard": 2,
+      "soft_fur": 1
+    },
+    "result": {
+      "itemId": "bronze_bangle",
+      "qty": 1
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC014",
+    "inputs": {
+      "red_crystal": 2,
+      "demon_horn": 1
+    },
+    "result": {
+      "itemId": "power_charm",
+      "qty": 1
+    },
+    "unlockFlag": "canyon_pass"
+  },
+  {
+    "id": "ALC015",
+    "inputs": {
+      "iron_shard": 2,
+      "small_scale": 1
+    },
+    "result": {
+      "itemId": "guard_charm",
+      "qty": 1
+    },
+    "unlockFlag": "canyon_pass"
+  },
+  {
+    "id": "ALC016",
+    "inputs": {
+      "soft_fur": 1,
+      "ether_dust": 2
+    },
+    "result": {
+      "itemId": "swift_feather",
+      "qty": 1
+    },
+    "unlockFlag": "marsh_beacon_lit"
+  },
+  {
+    "id": "ALC017",
+    "inputs": {
+      "star_fragment": 1,
+      "ether_dust": 2
+    },
+    "result": {
+      "itemId": "sage_lens",
+      "qty": 1
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC018",
+    "inputs": {
+      "magma_core": 1,
+      "star_iron": 1
+    },
+    "result": {
+      "itemId": "fire_talisman",
+      "qty": 1
+    },
+    "unlockFlag": "silver_seal_broken"
+  },
+  {
+    "id": "ALC019",
+    "inputs": {
+      "frost_core": 1,
+      "star_iron": 1
+    },
+    "result": {
+      "itemId": "ice_talisman",
+      "qty": 1
+    },
+    "unlockFlag": "silver_seal_broken"
+  },
+  {
+    "id": "ALC020",
+    "inputs": {
+      "star_fragment": 2,
+      "star_iron": 1
+    },
+    "result": {
+      "itemId": "lucky_bell",
+      "qty": 1
+    },
+    "unlockFlag": "four_resonance_crests"
+  },
+  {
+    "id": "ALC021",
+    "inputs": {
+      "red_crystal": 1,
+      "iron_shard": 1
+    },
+    "result": {
+      "itemId": "spiced_meat",
+      "qty": 1
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC022",
+    "inputs": {
+      "mist_pearl": 1,
+      "herb": 2
+    },
+    "result": {
+      "itemId": "herb_plus",
+      "qty": 2
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC023",
+    "inputs": {
+      "frost_core": 1,
+      "ether_dust": 1
+    },
+    "result": {
+      "itemId": "mana_flask",
+      "qty": 1
+    },
+    "unlockFlag": "alchemy_unlocked"
+  },
+  {
+    "id": "ALC024",
+    "inputs": {
+      "magma_core": 1,
+      "bright_leaf": 1
+    },
+    "result": {
+      "itemId": "life_leaf",
+      "qty": 1
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC025",
+    "inputs": {
+      "star_iron": 1,
+      "soft_fur": 1
+    },
+    "result": {
+      "itemId": "guard_charm",
+      "qty": 1
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC026",
+    "inputs": {
+      "star_fragment": 1,
+      "mist_pearl": 1
+    },
+    "result": {
+      "itemId": "shining_fruit",
+      "qty": 1
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC027",
+    "inputs": {
+      "demon_horn": 1,
+      "soul_dust": 1
+    },
+    "result": {
+      "itemId": "mana_drop",
+      "qty": 2
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC028",
+    "inputs": {
+      "small_scale": 1,
+      "soft_fur": 1
+    },
+    "result": {
+      "itemId": "plain_meat",
+      "qty": 2
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC029",
+    "inputs": {
+      "bright_leaf": 1,
+      "ether_dust": 1
+    },
+    "result": {
+      "itemId": "sweet_berry",
+      "qty": 2
+    },
+    "unlockFlag": "ruins_key_obtained"
+  },
+  {
+    "id": "ALC030",
+    "inputs": {
+      "star_fragment": 1,
+      "red_crystal": 1
+    },
+    "result": {
+      "itemId": "power_charm",
+      "qty": 1
+    },
+    "unlockFlag": "ruins_key_obtained"
+  }
+]

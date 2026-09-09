@@ -1,0 +1,1116 @@
+{
+  "version": 1,
+  "normalRules": {
+    "minimumParentLevel": 0,
+    "sexRestriction": false,
+    "parentConsumed": true,
+    "childLevel": 1,
+    "maxDisplayedCandidates": 3,
+    "genericMaxRank": "A",
+    "familyMatrix": {
+      "beast+beast": "beast",
+      "dragon+dragon": "dragon",
+      "nature+nature": "nature",
+      "fiend+fiend": "fiend",
+      "undead+undead": "undead",
+      "material+material": "material",
+      "spirit+spirit": "spirit",
+      "mythic+mythic": "mythic",
+      "beast+dragon": "dragon",
+      "dragon+beast": "dragon",
+      "beast+nature": "beast",
+      "nature+beast": "beast",
+      "beast+fiend": "fiend",
+      "fiend+beast": "fiend",
+      "beast+undead": "undead",
+      "undead+beast": "undead",
+      "beast+material": "material",
+      "material+beast": "material",
+      "beast+spirit": "spirit",
+      "spirit+beast": "spirit",
+      "beast+mythic": "mythic",
+      "mythic+beast": "mythic",
+      "dragon+nature": "dragon",
+      "nature+dragon": "dragon",
+      "dragon+fiend": "fiend",
+      "fiend+dragon": "fiend",
+      "dragon+undead": "dragon",
+      "undead+dragon": "dragon",
+      "dragon+material": "material",
+      "material+dragon": "material",
+      "dragon+spirit": "spirit",
+      "spirit+dragon": "spirit",
+      "dragon+mythic": "mythic",
+      "mythic+dragon": "mythic",
+      "nature+fiend": "fiend",
+      "fiend+nature": "fiend",
+      "nature+undead": "undead",
+      "undead+nature": "undead",
+      "nature+material": "nature",
+      "material+nature": "nature",
+      "nature+spirit": "spirit",
+      "spirit+nature": "spirit",
+      "nature+mythic": "mythic",
+      "mythic+nature": "mythic",
+      "fiend+undead": "fiend",
+      "undead+fiend": "fiend",
+      "fiend+material": "fiend",
+      "material+fiend": "fiend",
+      "fiend+spirit": "fiend",
+      "spirit+fiend": "fiend",
+      "fiend+mythic": "mythic",
+      "mythic+fiend": "mythic",
+      "undead+material": "undead",
+      "material+undead": "undead",
+      "undead+spirit": "spirit",
+      "spirit+undead": "spirit",
+      "undead+mythic": "mythic",
+      "mythic+undead": "mythic",
+      "material+spirit": "material",
+      "spirit+material": "material",
+      "material+mythic": "mythic",
+      "mythic+material": "mythic",
+      "spirit+mythic": "mythic",
+      "mythic+spirit": "mythic"
+    },
+    "rankRule": {
+      "formula": "floor((rankIndexA + rankIndexB)/2) + (rankIndexA == rankIndexB ? 1 : 0)",
+      "clampMin": "E",
+      "clampMaxByStoryFlag": {
+        "synthesis_unlocked": "D",
+        "canyon_pass": "C",
+        "marsh_beacon_lit": "B",
+        "ruins_key_obtained": "A",
+        "four_resonance_crests": "S",
+        "main_ending": "SS"
+      }
+    },
+    "candidateRule": "specific overrides first; otherwise target family from matrix, then deterministic candidates from eligible target-rank pools; never return hidden or boss species without an unlocked explicit recipe"
+  },
+  "specificRecipes": [
+    {
+      "id": "SPR_MON009",
+      "type": "specificPair",
+      "parentA": "MON083",
+      "parentB": "MON025",
+      "resultMonsterId": "MON009",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON010",
+      "type": "specificPair",
+      "parentA": "MON044",
+      "parentB": "MON104",
+      "resultMonsterId": "MON010",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON011",
+      "type": "specificPair",
+      "parentA": "MON028",
+      "parentB": "MON080",
+      "resultMonsterId": "MON011",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON012",
+      "type": "specificPair",
+      "parentA": "MON082",
+      "parentB": "MON026",
+      "resultMonsterId": "MON012",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON013",
+      "type": "specificPair",
+      "parentA": "MON068",
+      "parentB": "MON120",
+      "resultMonsterId": "MON013",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON014",
+      "type": "specificPair",
+      "parentA": "MON045",
+      "parentB": "MON107",
+      "resultMonsterId": "MON014",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON015",
+      "type": "specificPair",
+      "parentA": "MON086",
+      "parentB": "MON050",
+      "resultMonsterId": "MON015",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON016",
+      "type": "specificPair",
+      "parentA": "MON072",
+      "parentB": "MON033",
+      "resultMonsterId": "MON016",
+      "unlockFlag": "defeated_mon016",
+      "hintTier": 2
+    },
+    {
+      "id": "SPR_MON017",
+      "type": "specificPair",
+      "parentA": "MON036",
+      "parentB": "MON140",
+      "resultMonsterId": "MON017",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON018",
+      "type": "specificPair",
+      "parentA": "MON053",
+      "parentB": "MON034",
+      "resultMonsterId": "MON018",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON029",
+      "type": "specificPair",
+      "parentA": "MON064",
+      "parentB": "MON100",
+      "resultMonsterId": "MON029",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON030",
+      "type": "specificPair",
+      "parentA": "MON004",
+      "parentB": "MON084",
+      "resultMonsterId": "MON030",
+      "unlockFlag": "defeated_mon030",
+      "hintTier": 2
+    },
+    {
+      "id": "SPR_MON031",
+      "type": "specificPair",
+      "parentA": "MON119",
+      "parentB": "MON061",
+      "resultMonsterId": "MON031",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON032",
+      "type": "specificPair",
+      "parentA": "MON065",
+      "parentB": "MON136",
+      "resultMonsterId": "MON032",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON033",
+      "type": "specificPair",
+      "parentA": "MON050",
+      "parentB": "MON102",
+      "resultMonsterId": "MON033",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON034",
+      "type": "specificPair",
+      "parentA": "MON006",
+      "parentB": "MON086",
+      "resultMonsterId": "MON034",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON035",
+      "type": "specificPair",
+      "parentA": "MON009",
+      "parentB": "MON110",
+      "resultMonsterId": "MON035",
+      "unlockFlag": "defeated_mon035",
+      "hintTier": 2
+    },
+    {
+      "id": "SPR_MON036",
+      "type": "specificPair",
+      "parentA": "MON125",
+      "parentB": "MON086",
+      "resultMonsterId": "MON036",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON037",
+      "type": "specificPair",
+      "parentA": "MON071",
+      "parentB": "MON070",
+      "resultMonsterId": "MON037",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON038",
+      "type": "specificPair",
+      "parentA": "MON091",
+      "parentB": "MON074",
+      "resultMonsterId": "MON038",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON049",
+      "type": "specificPair",
+      "parentA": "MON025",
+      "parentB": "MON081",
+      "resultMonsterId": "MON049",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON050",
+      "type": "specificPair",
+      "parentA": "MON135",
+      "parentB": "MON065",
+      "resultMonsterId": "MON050",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON051",
+      "type": "specificPair",
+      "parentA": "MON099",
+      "parentB": "MON021",
+      "resultMonsterId": "MON051",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON052",
+      "type": "specificPair",
+      "parentA": "MON107",
+      "parentB": "MON029",
+      "resultMonsterId": "MON052",
+      "unlockFlag": "defeated_mon052",
+      "hintTier": 2
+    },
+    {
+      "id": "SPR_MON053",
+      "type": "specificPair",
+      "parentA": "MON082",
+      "parentB": "MON006",
+      "resultMonsterId": "MON053",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON054",
+      "type": "specificPair",
+      "parentA": "MON068",
+      "parentB": "MON120",
+      "resultMonsterId": "MON054",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON055",
+      "type": "specificPair",
+      "parentA": "MON138",
+      "parentB": "MON088",
+      "resultMonsterId": "MON055",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON056",
+      "type": "specificPair",
+      "parentA": "MON123",
+      "parentB": "MON069",
+      "resultMonsterId": "MON056",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON057",
+      "type": "specificPair",
+      "parentA": "MON129",
+      "parentB": "MON112",
+      "resultMonsterId": "MON057",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON058",
+      "type": "specificPair",
+      "parentA": "MON110",
+      "parentB": "MON109",
+      "resultMonsterId": "MON058",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON059",
+      "type": "specificPair",
+      "parentA": "MON142",
+      "parentB": "MON018",
+      "resultMonsterId": "MON059",
+      "unlockFlag": "four_resonance_crests",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON067",
+      "type": "specificPair",
+      "parentA": "MON005",
+      "parentB": "MON041",
+      "resultMonsterId": "MON067",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON068",
+      "type": "specificPair",
+      "parentA": "MON103",
+      "parentB": "MON008",
+      "resultMonsterId": "MON068",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON069",
+      "type": "specificPair",
+      "parentA": "MON044",
+      "parentB": "MON121",
+      "resultMonsterId": "MON069",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON070",
+      "type": "specificPair",
+      "parentA": "MON029",
+      "parentB": "MON101",
+      "resultMonsterId": "MON070",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON071",
+      "type": "specificPair",
+      "parentA": "MON006",
+      "parentB": "MON086",
+      "resultMonsterId": "MON071",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON072",
+      "type": "specificPair",
+      "parentA": "MON104",
+      "parentB": "MON028",
+      "resultMonsterId": "MON072",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON073",
+      "type": "specificPair",
+      "parentA": "MON128",
+      "parentB": "MON088",
+      "resultMonsterId": "MON073",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON074",
+      "type": "specificPair",
+      "parentA": "MON107",
+      "parentB": "MON051",
+      "resultMonsterId": "MON074",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON075",
+      "type": "specificPair",
+      "parentA": "MON091",
+      "parentB": "MON091",
+      "resultMonsterId": "MON075",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON076",
+      "type": "specificPair",
+      "parentA": "MON088",
+      "parentB": "MON088",
+      "resultMonsterId": "MON076",
+      "unlockFlag": "defeated_mon076",
+      "hintTier": 2
+    },
+    {
+      "id": "SPR_MON077",
+      "type": "specificPair",
+      "parentA": "MON093",
+      "parentB": "MON113",
+      "resultMonsterId": "MON077",
+      "unlockFlag": "four_resonance_crests",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON085",
+      "type": "specificPair",
+      "parentA": "MON062",
+      "parentB": "MON135",
+      "resultMonsterId": "MON085",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON086",
+      "type": "specificPair",
+      "parentA": "MON045",
+      "parentB": "MON098",
+      "resultMonsterId": "MON086",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON087",
+      "type": "specificPair",
+      "parentA": "MON003",
+      "parentB": "MON048",
+      "resultMonsterId": "MON087",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON088",
+      "type": "specificPair",
+      "parentA": "MON124",
+      "parentB": "MON031",
+      "resultMonsterId": "MON088",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON089",
+      "type": "specificPair",
+      "parentA": "MON065",
+      "parentB": "MON007",
+      "resultMonsterId": "MON089",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON090",
+      "type": "specificPair",
+      "parentA": "MON051",
+      "parentB": "MON120",
+      "resultMonsterId": "MON090",
+      "unlockFlag": "defeated_mon090",
+      "hintTier": 2
+    },
+    {
+      "id": "SPR_MON091",
+      "type": "specificPair",
+      "parentA": "MON010",
+      "parentB": "MON126",
+      "resultMonsterId": "MON091",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON092",
+      "type": "specificPair",
+      "parentA": "MON137",
+      "parentB": "MON105",
+      "resultMonsterId": "MON092",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON093",
+      "type": "specificPair",
+      "parentA": "MON143",
+      "parentB": "MON142",
+      "resultMonsterId": "MON093",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON094",
+      "type": "specificPair",
+      "parentA": "MON138",
+      "parentB": "MON128",
+      "resultMonsterId": "MON094",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON095",
+      "type": "specificPair",
+      "parentA": "MON112",
+      "parentB": "MON141",
+      "resultMonsterId": "MON095",
+      "unlockFlag": "four_resonance_crests",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON101",
+      "type": "specificPair",
+      "parentA": "MON022",
+      "parentB": "MON079",
+      "resultMonsterId": "MON101",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON102",
+      "type": "specificPair",
+      "parentA": "MON002",
+      "parentB": "MON044",
+      "resultMonsterId": "MON102",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON103",
+      "type": "specificPair",
+      "parentA": "MON117",
+      "parentB": "MON024",
+      "resultMonsterId": "MON103",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON104",
+      "type": "specificPair",
+      "parentA": "MON063",
+      "parentB": "MON004",
+      "resultMonsterId": "MON104",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON105",
+      "type": "specificPair",
+      "parentA": "MON047",
+      "parentB": "MON118",
+      "resultMonsterId": "MON105",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON106",
+      "type": "specificPair",
+      "parentA": "MON022",
+      "parentB": "MON082",
+      "resultMonsterId": "MON106",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON107",
+      "type": "specificPair",
+      "parentA": "MON006",
+      "parentB": "MON043",
+      "resultMonsterId": "MON107",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON108",
+      "type": "specificPair",
+      "parentA": "MON008",
+      "parentB": "MON086",
+      "resultMonsterId": "MON108",
+      "unlockFlag": "defeated_mon108",
+      "hintTier": 2
+    },
+    {
+      "id": "SPR_MON109",
+      "type": "specificPair",
+      "parentA": "MON122",
+      "parentB": "MON047",
+      "resultMonsterId": "MON109",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON110",
+      "type": "specificPair",
+      "parentA": "MON124",
+      "parentB": "MON049",
+      "resultMonsterId": "MON110",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON111",
+      "type": "specificPair",
+      "parentA": "MON140",
+      "parentB": "MON088",
+      "resultMonsterId": "MON111",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON112",
+      "type": "specificPair",
+      "parentA": "MON125",
+      "parentB": "MON068",
+      "resultMonsterId": "MON112",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON113",
+      "type": "specificPair",
+      "parentA": "MON015",
+      "parentB": "MON140",
+      "resultMonsterId": "MON113",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON114",
+      "type": "specificPair",
+      "parentA": "MON033",
+      "parentB": "MON032",
+      "resultMonsterId": "MON114",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON115",
+      "type": "specificPair",
+      "parentA": "MON142",
+      "parentB": "MON018",
+      "resultMonsterId": "MON115",
+      "unlockFlag": "four_resonance_crests",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON120",
+      "type": "specificPair",
+      "parentA": "MON004",
+      "parentB": "MON061",
+      "resultMonsterId": "MON120",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON121",
+      "type": "specificPair",
+      "parentA": "MON099",
+      "parentB": "MON024",
+      "resultMonsterId": "MON121",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON122",
+      "type": "specificPair",
+      "parentA": "MON079",
+      "parentB": "MON003",
+      "resultMonsterId": "MON122",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON123",
+      "type": "specificPair",
+      "parentA": "MON028",
+      "parentB": "MON079",
+      "resultMonsterId": "MON123",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON124",
+      "type": "specificPair",
+      "parentA": "MON002",
+      "parentB": "MON047",
+      "resultMonsterId": "MON124",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON125",
+      "type": "specificPair",
+      "parentA": "MON097",
+      "parentB": "MON021",
+      "resultMonsterId": "MON125",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON126",
+      "type": "specificPair",
+      "parentA": "MON064",
+      "parentB": "MON006",
+      "resultMonsterId": "MON126",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON127",
+      "type": "specificPair",
+      "parentA": "MON050",
+      "parentB": "MON101",
+      "resultMonsterId": "MON127",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON128",
+      "type": "specificPair",
+      "parentA": "MON025",
+      "parentB": "MON086",
+      "resultMonsterId": "MON128",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON129",
+      "type": "specificPair",
+      "parentA": "MON033",
+      "parentB": "MON136",
+      "resultMonsterId": "MON129",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON130",
+      "type": "specificPair",
+      "parentA": "MON029",
+      "parentB": "MON138",
+      "resultMonsterId": "MON130",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON131",
+      "type": "specificPair",
+      "parentA": "MON109",
+      "parentB": "MON109",
+      "resultMonsterId": "MON131",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON132",
+      "type": "specificPair",
+      "parentA": "MON143",
+      "parentB": "MON143",
+      "resultMonsterId": "MON132",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON135",
+      "type": "specificPair",
+      "parentA": "MON002",
+      "parentB": "MON024",
+      "resultMonsterId": "MON135",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON136",
+      "type": "specificPair",
+      "parentA": "MON097",
+      "parentB": "MON122",
+      "resultMonsterId": "MON136",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON137",
+      "type": "specificPair",
+      "parentA": "MON047",
+      "parentB": "MON080",
+      "resultMonsterId": "MON137",
+      "unlockFlag": "synthesis_unlocked",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON138",
+      "type": "specificPair",
+      "parentA": "MON084",
+      "parentB": "MON008",
+      "resultMonsterId": "MON138",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON139",
+      "type": "specificPair",
+      "parentA": "MON068",
+      "parentB": "MON103",
+      "resultMonsterId": "MON139",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON140",
+      "type": "specificPair",
+      "parentA": "MON027",
+      "parentB": "MON086",
+      "resultMonsterId": "MON140",
+      "unlockFlag": "canyon_pass",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON141",
+      "type": "specificPair",
+      "parentA": "MON107",
+      "parentB": "MON068",
+      "resultMonsterId": "MON141",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON142",
+      "type": "specificPair",
+      "parentA": "MON109",
+      "parentB": "MON053",
+      "resultMonsterId": "MON142",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON143",
+      "type": "specificPair",
+      "parentA": "MON086",
+      "parentB": "MON049",
+      "resultMonsterId": "MON143",
+      "unlockFlag": "marsh_beacon_lit",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON144",
+      "type": "specificPair",
+      "parentA": "MON054",
+      "parentB": "MON070",
+      "resultMonsterId": "MON144",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON145",
+      "type": "specificPair",
+      "parentA": "MON091",
+      "parentB": "MON092",
+      "resultMonsterId": "MON145",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON146",
+      "type": "specificPair",
+      "parentA": "MON088",
+      "parentB": "MON089",
+      "resultMonsterId": "MON146",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    },
+    {
+      "id": "SPR_MON147",
+      "type": "specificPair",
+      "parentA": "MON129",
+      "parentB": "MON130",
+      "resultMonsterId": "MON147",
+      "unlockFlag": "ruins_key_obtained",
+      "hintTier": 1
+    }
+  ],
+  "fourAncestorRecipes": [
+    {
+      "id": "FAR_MON019",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON019",
+      "requiredAncestorMonsterIds": [
+        "MON037",
+        "MON058",
+        "MON094",
+        "MON131"
+      ],
+      "unlockFlag": "four_resonance_crests",
+      "hintTier": 3
+    },
+    {
+      "id": "FAR_MON020",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON020",
+      "requiredAncestorMonsterIds": [
+        "MON059",
+        "MON115",
+        "MON077",
+        "MON148"
+      ],
+      "unlockFlag": "defeated_mon020",
+      "hintTier": 2
+    },
+    {
+      "id": "FAR_MON039",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON039",
+      "requiredAncestorMonsterIds": [
+        "MON058",
+        "MON094",
+        "MON131",
+        "MON145"
+      ],
+      "unlockFlag": "defeated_mon039",
+      "hintTier": 2
+    },
+    {
+      "id": "FAR_MON040",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON040",
+      "requiredAncestorMonsterIds": [
+        "MON059",
+        "MON115",
+        "MON077",
+        "MON148"
+      ],
+      "unlockFlag": "main_ending",
+      "hintTier": 3
+    },
+    {
+      "id": "FAR_MON060",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON060",
+      "requiredAncestorMonsterIds": [
+        "MON059",
+        "MON115",
+        "MON077",
+        "MON148"
+      ],
+      "unlockFlag": "main_ending",
+      "hintTier": 3
+    },
+    {
+      "id": "FAR_MON078",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON078",
+      "requiredAncestorMonsterIds": [
+        "MON115",
+        "MON077",
+        "MON148",
+        "MON095"
+      ],
+      "unlockFlag": "defeated_mon078",
+      "hintTier": 2
+    },
+    {
+      "id": "FAR_MON096",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON096",
+      "requiredAncestorMonsterIds": [
+        "MON077",
+        "MON148",
+        "MON095",
+        "MON059"
+      ],
+      "unlockFlag": "main_ending",
+      "hintTier": 3
+    },
+    {
+      "id": "FAR_MON116",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON116",
+      "requiredAncestorMonsterIds": [
+        "MON077",
+        "MON148",
+        "MON095",
+        "MON059"
+      ],
+      "unlockFlag": "main_ending",
+      "hintTier": 3
+    },
+    {
+      "id": "FAR_MON133",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON133",
+      "requiredAncestorMonsterIds": [
+        "MON145",
+        "MON017",
+        "MON038",
+        "MON075"
+      ],
+      "unlockFlag": "four_resonance_crests",
+      "hintTier": 3
+    },
+    {
+      "id": "FAR_MON134",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON134",
+      "requiredAncestorMonsterIds": [
+        "MON148",
+        "MON095",
+        "MON059",
+        "MON115"
+      ],
+      "unlockFlag": "main_ending",
+      "hintTier": 3
+    },
+    {
+      "id": "FAR_MON148",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON148",
+      "requiredAncestorMonsterIds": [
+        "MON132",
+        "MON146",
+        "MON018",
+        "MON057"
+      ],
+      "unlockFlag": "four_resonance_crests",
+      "hintTier": 2
+    },
+    {
+      "id": "FAR_MON149",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON149",
+      "requiredAncestorMonsterIds": [
+        "MON144",
+        "MON147",
+        "MON037",
+        "MON058"
+      ],
+      "unlockFlag": "four_resonance_crests",
+      "hintTier": 3
+    },
+    {
+      "id": "FAR_MON150",
+      "type": "fourAncestor",
+      "resultMonsterId": "MON150",
+      "requiredAncestorMonsterIds": [
+        "MON059",
+        "MON115",
+        "MON077",
+        "MON148"
+      ],
+      "unlockFlag": "defeated_mon150",
+      "hintTier": 2
+    }
+  ],
+  "inheritance": {
+    "maxSkillTrees": 3,
+    "inheritedSPFraction": 0.25,
+    "statFormula": "childBaseStat + min(floor((parentA.currentStat + parentB.currentStat) * 0.12), floor(childBaseStat * 0.75))",
+    "ancestryTrackingDepth": 2,
+    "spSource": "levelEarnedSPOnly"
+  }
+}

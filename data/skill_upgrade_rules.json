@@ -1,0 +1,33 @@
+[
+  {
+    "id": "UP_ELEMENTAL_MASTER",
+    "resultTreeId": "elemental_master",
+    "conditionType": "twoParentSameCategoryProgress",
+    "requiredCategory": "element",
+    "minSPPerParent": 45,
+    "description": "両親が同一元素系スキルラインへ45SP以上振っていると候補。"
+  },
+  {
+    "id": "UP_WAR_MASTER",
+    "resultTreeId": "war_master",
+    "conditionType": "combinedTreeProgress",
+    "requiredTreeIds": [
+      "speedcraft",
+      "critical"
+    ],
+    "combinedMinSP": 90,
+    "description": "両親の迅速・会心系への投入SP合計が90以上で候補。"
+  },
+  {
+    "id": "UP_SAGE_MASTER",
+    "resultTreeId": "sage_master",
+    "conditionType": "combinedTreeProgress",
+    "requiredTreeIds": [
+      "healing",
+      "grand_healing",
+      "enhancement"
+    ],
+    "combinedMinSP": 90,
+    "description": "両親の回復・強化系への投入SP合計が90以上で候補。"
+  }
+]

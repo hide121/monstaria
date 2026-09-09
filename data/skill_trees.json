@@ -1,0 +1,2163 @@
+[
+  {
+    "id": "fire_arts",
+    "name": "火炎術",
+    "category": "element",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "fire_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "fire_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "fire_3"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "elemental_master",
+    "description": "火炎術の基本ライン。"
+  },
+  {
+    "id": "ice_arts",
+    "name": "氷結術",
+    "category": "element",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "ice_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "ice_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "ice_3"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "elemental_master",
+    "description": "氷結術の基本ライン。"
+  },
+  {
+    "id": "wind_arts",
+    "name": "風術",
+    "category": "element",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "wind_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "wind_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "wind_3"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "elemental_master",
+    "description": "風術の基本ライン。"
+  },
+  {
+    "id": "earth_arts",
+    "name": "大地術",
+    "category": "element",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "earth_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "earth_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "earth_3"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "elemental_master",
+    "description": "大地術の基本ライン。"
+  },
+  {
+    "id": "lightning_arts",
+    "name": "雷術",
+    "category": "element",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "lightning_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "lightning_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "lightning_3"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "elemental_master",
+    "description": "雷術の基本ライン。"
+  },
+  {
+    "id": "light_arts",
+    "name": "光術",
+    "category": "element",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "light_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "light_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "light_3"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "elemental_master",
+    "description": "光術の基本ライン。"
+  },
+  {
+    "id": "dark_arts",
+    "name": "闇術",
+    "category": "element",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "dark_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "dark_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "dark_3"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "elemental_master",
+    "description": "闇術の基本ライン。"
+  },
+  {
+    "id": "fire_breath",
+    "name": "火炎ブレス",
+    "category": "breath",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "fire_breath_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "fire_breath_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "dragon_roar"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 18
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "frost_breath",
+    "name": "氷結ブレス",
+    "category": "breath",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "ice_breath_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "ice_breath_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "dragon_roar"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "def",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 18
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "healing",
+    "name": "回復",
+    "category": "support",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "heal_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "heal_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "renew"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "grand_healing",
+    "description": ""
+  },
+  {
+    "id": "grand_healing",
+    "name": "全体回復",
+    "category": "advanced",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "heal_all_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "heal_all_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "revive"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "skill",
+          "skillId": "renew"
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 15
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 20
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "guardian",
+    "name": "守護",
+    "category": "support",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "guard"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "def_up"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "cover"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "skill",
+          "skillId": "perfect_guard"
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "def",
+          "value": 15
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 20
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "enhancement",
+    "name": "強化術",
+    "category": "support",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "atk_up"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "agi_up_all"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "barrier_all"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "skill",
+          "skillId": "battle_cry"
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "weakening",
+    "name": "弱体術",
+    "category": "support",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "atk_down"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "def_down"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "agi_down_all"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "skill",
+          "skillId": "break_wave"
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "status_poison",
+    "name": "毒術",
+    "category": "status",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "status_poison"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 8
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 8
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "status_sleep",
+    "name": "眠り術",
+    "category": "status",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "status_sleep"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 8
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 8
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "status_paralysis",
+    "name": "麻痺術",
+    "category": "status",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "status_paralysis"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 8
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 8
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "status_confusion",
+    "name": "幻惑術",
+    "category": "status",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "status_confusion"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 8
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 8
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "status_silence",
+    "name": "封魔術",
+    "category": "status",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "status_silence"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 8
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 8
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "speedcraft",
+    "name": "迅速",
+    "category": "combat",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "quick_slash"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "agi_up_all"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 8
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 8
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "war_master",
+    "description": ""
+  },
+  {
+    "id": "critical",
+    "name": "会心",
+    "category": "combat",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "focus"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "heavy_crush"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "execute"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 8
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 8
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 15
+        }
+      }
+    ],
+    "upgradeTo": "war_master",
+    "description": ""
+  },
+  {
+    "id": "counter",
+    "name": "反撃",
+    "category": "combat",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "counter_stance"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "cover"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "strike"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "def",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 10
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "hp_boost",
+    "name": "HPアップ",
+    "category": "stat",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 5
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 15
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 20
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "mp_boost",
+    "name": "MPアップ",
+    "category": "stat",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 5
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 12
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 15
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 20
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "atk_boost",
+    "name": "攻撃アップ",
+    "category": "stat",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 5
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 10
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 12
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 15
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "atk",
+          "value": 20
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "def_boost",
+    "name": "守備アップ",
+    "category": "stat",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "stat",
+          "stat": "def",
+          "value": 5
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "def",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "def",
+          "value": 10
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "def",
+          "value": 12
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "def",
+          "value": 15
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "def",
+          "value": 20
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "agi_boost",
+    "name": "素早さアップ",
+    "category": "stat",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 5
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 10
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 12
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 15
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "agi",
+          "value": 20
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "wis_boost",
+    "name": "賢さアップ",
+    "category": "stat",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 5
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 8
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 10
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 15
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 20
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "beast_lore",
+    "name": "獣の心得",
+    "category": "family",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "quick_slash"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "atk_up"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "strike"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "dragon_lore",
+    "name": "竜の心得",
+    "category": "family",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "fire_breath_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "strike"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "dragon_roar"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "nature_lore",
+    "name": "自然の心得",
+    "category": "family",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "heal_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "status_sleep"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "barrier_all"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "fiend_lore",
+    "name": "魔族の心得",
+    "category": "family",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "dark_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "atk_down"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "life_drain"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "undead_lore",
+    "name": "霊魂の心得",
+    "category": "family",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "dark_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "status_silence"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "mp_drain"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "material_lore",
+    "name": "物質の心得",
+    "category": "family",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "guard"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "def_up"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "heavy_crush"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "spirit_lore",
+    "name": "精霊の心得",
+    "category": "family",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "light_1"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "heal_1"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "mana_surge"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "mythic_lore",
+    "name": "神獣の心得",
+    "category": "family",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "light_2"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "battle_cry"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "perfect_guard"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "stat",
+          "stat": "hp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "stat",
+          "stat": "mp",
+          "value": 10
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "stat",
+          "stat": "wis",
+          "value": 12
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "elemental_master",
+    "name": "元素統合",
+    "category": "advanced",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "fire_2"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "ice_2"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "wind_2"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "skill",
+          "skillId": "lightning_2"
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "skill",
+          "skillId": "spirit_burst"
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "skill",
+          "skillId": "abyss_burst"
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "war_master",
+    "name": "武神",
+    "category": "advanced",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "quick_slash"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "strike"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "heavy_crush"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "skill",
+          "skillId": "sweep"
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "skill",
+          "skillId": "execute"
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "skill",
+          "skillId": "meteor_crash"
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  },
+  {
+    "id": "sage_master",
+    "name": "賢者",
+    "category": "advanced",
+    "maxSP": 60,
+    "nodes": [
+      {
+        "sp": 5,
+        "effect": {
+          "type": "skill",
+          "skillId": "heal_2"
+        }
+      },
+      {
+        "sp": 12,
+        "effect": {
+          "type": "skill",
+          "skillId": "barrier_all"
+        }
+      },
+      {
+        "sp": 20,
+        "effect": {
+          "type": "skill",
+          "skillId": "battle_cry"
+        }
+      },
+      {
+        "sp": 32,
+        "effect": {
+          "type": "skill",
+          "skillId": "renew"
+        }
+      },
+      {
+        "sp": 45,
+        "effect": {
+          "type": "skill",
+          "skillId": "heal_all_2"
+        }
+      },
+      {
+        "sp": 60,
+        "effect": {
+          "type": "skill",
+          "skillId": "revive"
+        }
+      }
+    ],
+    "upgradeTo": null,
+    "description": ""
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "linea_village",
+    "name": "リネア村",
+    "order": 0,
+    "type": "hub",
+    "recommendedLevel": [
+      1,
+      50
+    ],
+    "estimatedMinutes": [
+      0,
+      0
+    ],
+    "unlockRequirements": [],
+    "features": [
+      "inn",
+      "shop",
+      "monster_roster",
+      "wardrobe"
+    ],
+    "synthesisAvailable": false,
+    "alchemyAvailable": false,
+    "visual": "明るい草原に囲まれた石造りと木造の小村。中央に噴水と牧場。",
+    "spoilerTier": "safe"
+  },
+  {
+    "id": "verdant_meadow",
+    "name": "翠風の草原",
+    "order": 1,
+    "type": "field",
+    "recommendedLevel": [
+      1,
+      6
+    ],
+    "estimatedMinutes": [
+      0,
+      30
+    ],
+    "unlockRequirements": [
+      "story_start"
+    ],
+    "features": [
+      "scout_tutorial",
+      "starter_choice",
+      "treasure"
+    ],
+    "synthesisAvailable": false,
+    "alchemyAvailable": false,
+    "visual": "青空、風車、花畑、小川。冒険開始の安心感を重視。",
+    "spoilerTier": "safe"
+  },
+  {
+    "id": "echo_forest",
+    "name": "こだま樹海",
+    "order": 2,
+    "type": "field",
+    "recommendedLevel": [
+      5,
+      11
+    ],
+    "estimatedMinutes": [
+      30,
+      75
+    ],
+    "unlockRequirements": [
+      "meadow_gate_open"
+    ],
+    "features": [
+      "synthesis_unlock",
+      "first_boss",
+      "wardrobe_chest"
+    ],
+    "synthesisAvailable": true,
+    "alchemyAvailable": false,
+    "visual": "木漏れ日が差す明るい森。巨大樹、きのこ、古い石碑。",
+    "spoilerTier": "safe"
+  },
+  {
+    "id": "crimson_canyon",
+    "name": "赤晶峡谷",
+    "order": 3,
+    "type": "field",
+    "recommendedLevel": [
+      9,
+      17
+    ],
+    "estimatedMinutes": [
+      75,
+      125
+    ],
+    "unlockRequirements": [
+      "forest_core_restored"
+    ],
+    "features": [
+      "skill_inheritance_tutorial",
+      "rare_monster",
+      "wardrobe_chest"
+    ],
+    "synthesisAvailable": true,
+    "alchemyAvailable": false,
+    "visual": "赤い結晶が露出した乾いた峡谷。吊り橋と洞穴。",
+    "spoilerTier": "safe"
+  },
+  {
+    "id": "mist_lantern_marsh",
+    "name": "霧灯湿原",
+    "order": 4,
+    "type": "field",
+    "recommendedLevel": [
+      15,
+      23
+    ],
+    "estimatedMinutes": [
+      125,
+      205
+    ],
+    "unlockRequirements": [
+      "canyon_pass"
+    ],
+    "features": [
+      "status_tutorial",
+      "alchemy_unlock",
+      "wardrobe_chest"
+    ],
+    "synthesisAvailable": true,
+    "alchemyAvailable": true,
+    "visual": "青緑の霧、発光草、木道。怖すぎない幻想的な湿原。",
+    "spoilerTier": "safe"
+  },
+  {
+    "id": "star_iron_ruins",
+    "name": "星鉄遺跡",
+    "order": 5,
+    "type": "dungeon",
+    "recommendedLevel": [
+      21,
+      29
+    ],
+    "estimatedMinutes": [
+      205,
+      285
+    ],
+    "unlockRequirements": [
+      "marsh_beacon_lit"
+    ],
+    "features": [
+      "mechanism_puzzles",
+      "special_synthesis_hints",
+      "wardrobe_chest"
+    ],
+    "synthesisAvailable": true,
+    "alchemyAvailable": true,
+    "visual": "星形の金属装飾と青い発光文字が残る古代遺跡。",
+    "spoilerTier": "safe"
+  },
+  {
+    "id": "silver_pass",
+    "name": "白銀峠",
+    "order": 6,
+    "type": "field",
+    "recommendedLevel": [
+      27,
+      34
+    ],
+    "estimatedMinutes": [
+      285,
+      365
+    ],
+    "unlockRequirements": [
+      "ruins_key_obtained"
+    ],
+    "features": [
+      "four_parent_synthesis_unlock",
+      "weather_hazards",
+      "wardrobe_chest"
+    ],
+    "synthesisAvailable": true,
+    "alchemyAvailable": true,
+    "visual": "雪原と針葉樹、凍った湖。視認性の高い青白い景観。",
+    "spoilerTier": "safe"
+  },
+  {
+    "id": "crownfire_volcano",
+    "name": "火冠火山",
+    "order": 7,
+    "type": "dungeon",
+    "recommendedLevel": [
+      32,
+      39
+    ],
+    "estimatedMinutes": [
+      365,
+      455
+    ],
+    "unlockRequirements": [
+      "silver_seal_broken"
+    ],
+    "features": [
+      "high_rank_synthesis",
+      "boss_recipe_hints",
+      "wardrobe_chest"
+    ],
+    "synthesisAvailable": true,
+    "alchemyAvailable": true,
+    "visual": "黒い岩と橙色の溶岩、熱で光る鉱石。暗くしすぎない。",
+    "spoilerTier": "safe"
+  },
+  {
+    "id": "sky_ring_tower",
+    "name": "天環の古塔",
+    "order": 8,
+    "type": "dungeon",
+    "recommendedLevel": [
+      37,
+      43
+    ],
+    "estimatedMinutes": [
+      455,
+      600
+    ],
+    "unlockRequirements": [
+      "four_resonance_crests"
+    ],
+    "features": [
+      "final_story",
+      "s_rank_synthesis_hints",
+      "ending"
+    ],
+    "synthesisAvailable": true,
+    "alchemyAvailable": true,
+    "visual": "雲海を貫く白石の塔。金と青の魔法環が浮遊する。",
+    "spoilerTier": "major"
+  },
+  {
+    "id": "primordial_garden",
+    "name": "原初庭園",
+    "order": 9,
+    "type": "postgame",
+    "recommendedLevel": [
+      42,
+      50
+    ],
+    "estimatedMinutes": [
+      600,
+      900
+    ],
+    "unlockRequirements": [
+      "main_ending"
+    ],
+    "features": [
+      "postgame",
+      "ss_synthesis",
+      "secret_bosses",
+      "final_wardrobe"
+    ],
+    "synthesisAvailable": true,
+    "alchemyAvailable": true,
+    "visual": "複数地域の自然が混ざる神秘的な庭園。星空と昼光が共存。",
+    "spoilerTier": "major"
+  }
+]

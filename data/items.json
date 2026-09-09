@@ -1,0 +1,538 @@
+[
+  {
+    "id": "herb",
+    "name": "やくそう葉",
+    "category": "consumable",
+    "buyPrice": 24,
+    "sellPrice": 8,
+    "effect": {
+      "healHp": 40
+    },
+    "description": "味方1体のHPを40回復。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "herb_plus",
+    "name": "上やくそう葉",
+    "category": "consumable",
+    "buyPrice": 80,
+    "sellPrice": 26,
+    "effect": {
+      "healHp": 110
+    },
+    "description": "味方1体のHPを110回復。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "mana_drop",
+    "name": "魔力しずく",
+    "category": "consumable",
+    "buyPrice": 70,
+    "sellPrice": 24,
+    "effect": {
+      "healMp": 25
+    },
+    "description": "味方1体のMPを25回復。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "mana_flask",
+    "name": "魔力びん",
+    "category": "consumable",
+    "buyPrice": 210,
+    "sellPrice": 70,
+    "effect": {
+      "healMp": 65
+    },
+    "description": "味方1体のMPを65回復。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "antidote",
+    "name": "清め草",
+    "category": "consumable",
+    "buyPrice": 35,
+    "sellPrice": 12,
+    "effect": {
+      "cure": [
+        "poison"
+      ]
+    },
+    "description": "毒を解除。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "wake_bell",
+    "name": "目覚め鈴",
+    "category": "consumable",
+    "buyPrice": 40,
+    "sellPrice": 14,
+    "effect": {
+      "cure": [
+        "sleep"
+      ]
+    },
+    "description": "眠りを解除。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "cure_charm",
+    "name": "万能の粉",
+    "category": "consumable",
+    "buyPrice": 180,
+    "sellPrice": 60,
+    "effect": {
+      "cure": [
+        "poison",
+        "sleep",
+        "paralysis",
+        "confusion",
+        "silence"
+      ]
+    },
+    "description": "主要状態異常を解除。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "life_leaf",
+    "name": "生命の葉",
+    "category": "consumable",
+    "buyPrice": 360,
+    "sellPrice": 120,
+    "effect": {
+      "reviveHpPct": 0.5
+    },
+    "description": "戦闘不能をHP50%で復活。",
+    "maxStack": 99,
+    "rarity": "rare"
+  },
+  {
+    "id": "plain_meat",
+    "name": "やわらか肉",
+    "category": "bait",
+    "buyPrice": 60,
+    "sellPrice": 20,
+    "effect": {
+      "scoutBonus": 8
+    },
+    "description": "スカウト成功率+8pt。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "spiced_meat",
+    "name": "香草肉",
+    "category": "bait",
+    "buyPrice": 150,
+    "sellPrice": 50,
+    "effect": {
+      "scoutBonus": 14
+    },
+    "description": "スカウト成功率+14pt。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "royal_meat",
+    "name": "王様肉",
+    "category": "bait",
+    "buyPrice": 420,
+    "sellPrice": 140,
+    "effect": {
+      "scoutBonus": 22
+    },
+    "description": "スカウト成功率+22pt。",
+    "maxStack": 99,
+    "rarity": "rare"
+  },
+  {
+    "id": "sweet_berry",
+    "name": "あまい木の実",
+    "category": "bait",
+    "buyPrice": 45,
+    "sellPrice": 15,
+    "effect": {
+      "scoutBonus": 6,
+      "familyBonus": "nature"
+    },
+    "description": "自然系には追加+5pt。",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "shining_fruit",
+    "name": "ひかりの果実",
+    "category": "bait",
+    "buyPrice": 280,
+    "sellPrice": 90,
+    "effect": {
+      "scoutBonus": 16,
+      "familyBonus": "spirit"
+    },
+    "description": "精霊・神獣系には追加+6pt。",
+    "maxStack": 99,
+    "rarity": "rare"
+  },
+  {
+    "id": "soft_fur",
+    "name": "やわらか毛",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 18,
+    "effect": {},
+    "description": "獣系素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "small_scale",
+    "name": "小さな鱗",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 18,
+    "effect": {},
+    "description": "ドラゴン系素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "bright_leaf",
+    "name": "光葉",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 18,
+    "effect": {},
+    "description": "自然系素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "demon_horn",
+    "name": "小魔角",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 18,
+    "effect": {},
+    "description": "魔族系素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "soul_dust",
+    "name": "魂粉",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 18,
+    "effect": {},
+    "description": "アンデッド系素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "iron_shard",
+    "name": "鉄片",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 18,
+    "effect": {},
+    "description": "物質系素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "ether_dust",
+    "name": "精霊砂",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 18,
+    "effect": {},
+    "description": "精霊系素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "star_fragment",
+    "name": "星片",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 45,
+    "effect": {},
+    "description": "希少素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "red_crystal",
+    "name": "赤晶",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 18,
+    "effect": {},
+    "description": "峡谷素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "mist_pearl",
+    "name": "霧珠",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 18,
+    "effect": {},
+    "description": "湿原素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "star_iron",
+    "name": "星鉄",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 45,
+    "effect": {},
+    "description": "遺跡素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "frost_core",
+    "name": "氷核",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 45,
+    "effect": {},
+    "description": "雪山素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "magma_core",
+    "name": "火核",
+    "category": "material",
+    "buyPrice": 0,
+    "sellPrice": 45,
+    "effect": {},
+    "description": "火山素材",
+    "maxStack": 99,
+    "rarity": "common"
+  },
+  {
+    "id": "bronze_bangle",
+    "name": "旅人の腕輪",
+    "category": "accessory",
+    "buyPrice": 180,
+    "sellPrice": 60,
+    "effect": {
+      "hpPct": 0.05
+    },
+    "description": "最大HP+5%。",
+    "maxStack": 1,
+    "rarity": "uncommon"
+  },
+  {
+    "id": "power_charm",
+    "name": "力のお守り",
+    "category": "accessory",
+    "buyPrice": 420,
+    "sellPrice": 140,
+    "effect": {
+      "atkPct": 0.06
+    },
+    "description": "攻撃力+6%。",
+    "maxStack": 1,
+    "rarity": "uncommon"
+  },
+  {
+    "id": "guard_charm",
+    "name": "守りのお守り",
+    "category": "accessory",
+    "buyPrice": 420,
+    "sellPrice": 140,
+    "effect": {
+      "defPct": 0.06
+    },
+    "description": "守備力+6%。",
+    "maxStack": 1,
+    "rarity": "uncommon"
+  },
+  {
+    "id": "swift_feather",
+    "name": "風羽の飾り",
+    "category": "accessory",
+    "buyPrice": 460,
+    "sellPrice": 153,
+    "effect": {
+      "agiPct": 0.06
+    },
+    "description": "素早さ+6%。",
+    "maxStack": 1,
+    "rarity": "uncommon"
+  },
+  {
+    "id": "sage_lens",
+    "name": "賢者のレンズ",
+    "category": "accessory",
+    "buyPrice": 460,
+    "sellPrice": 153,
+    "effect": {
+      "wisPct": 0.06
+    },
+    "description": "賢さ+6%。",
+    "maxStack": 1,
+    "rarity": "uncommon"
+  },
+  {
+    "id": "fire_talisman",
+    "name": "火除け紋",
+    "category": "accessory",
+    "buyPrice": 520,
+    "sellPrice": 173,
+    "effect": {
+      "elementResistStep": {
+        "fire": 1
+      }
+    },
+    "description": "火耐性+1段階。",
+    "maxStack": 1,
+    "rarity": "uncommon"
+  },
+  {
+    "id": "ice_talisman",
+    "name": "氷除け紋",
+    "category": "accessory",
+    "buyPrice": 520,
+    "sellPrice": 173,
+    "effect": {
+      "elementResistStep": {
+        "ice": 1
+      }
+    },
+    "description": "氷耐性+1段階。",
+    "maxStack": 1,
+    "rarity": "uncommon"
+  },
+  {
+    "id": "lucky_bell",
+    "name": "幸運の鈴",
+    "category": "accessory",
+    "buyPrice": 850,
+    "sellPrice": 283,
+    "effect": {
+      "rareEncounterPct": 0.05
+    },
+    "description": "レア遭遇率をわずかに上げる。",
+    "maxStack": 1,
+    "rarity": "rare"
+  },
+  {
+    "id": "outfit_villager",
+    "name": "村娘の旅装",
+    "category": "cosmetic",
+    "buyPrice": 0,
+    "sellPrice": 0,
+    "effect": {
+      "wardrobeId": "outfit_villager"
+    },
+    "description": "初期衣装。アイボリーのブラウス、赤茶のベスト、深緑のスカート。",
+    "maxStack": 1,
+    "rarity": "special"
+  },
+  {
+    "id": "outfit_adventurer",
+    "name": "冒険者の軽装",
+    "category": "cosmetic",
+    "buyPrice": 0,
+    "sellPrice": 0,
+    "effect": {
+      "wardrobeId": "outfit_adventurer"
+    },
+    "description": "革のショートジャケットと動きやすいスカート・ブーツ。",
+    "maxStack": 1,
+    "rarity": "special"
+  },
+  {
+    "id": "outfit_swimsuit",
+    "name": "夏色の水着",
+    "category": "cosmetic",
+    "buyPrice": 0,
+    "sellPrice": 0,
+    "effect": {
+      "wardrobeId": "outfit_swimsuit"
+    },
+    "description": "明るい王道ファンタジー風の水着衣装。赤縁眼鏡は維持。",
+    "maxStack": 1,
+    "rarity": "special"
+  },
+  {
+    "id": "outfit_bunny",
+    "name": "月夜のバニー衣装",
+    "category": "cosmetic",
+    "buyPrice": 0,
+    "sellPrice": 0,
+    "effect": {
+      "wardrobeId": "outfit_bunny"
+    },
+    "description": "黒を基調にした遊び心のあるバニー衣装。赤縁眼鏡は維持。",
+    "maxStack": 1,
+    "rarity": "special"
+  },
+  {
+    "id": "outfit_festival",
+    "name": "花祭りの衣装",
+    "category": "cosmetic",
+    "buyPrice": 0,
+    "sellPrice": 0,
+    "effect": {
+      "wardrobeId": "outfit_festival"
+    },
+    "description": "花刺繍とリボンを使った村祭り風衣装。",
+    "maxStack": 1,
+    "rarity": "special"
+  },
+  {
+    "id": "outfit_mage",
+    "name": "星読みの衣",
+    "category": "cosmetic",
+    "buyPrice": 0,
+    "sellPrice": 0,
+    "effect": {
+      "wardrobeId": "outfit_mage"
+    },
+    "description": "青紺のローブと小さな星飾り。",
+    "maxStack": 1,
+    "rarity": "special"
+  },
+  {
+    "id": "outfit_winter",
+    "name": "白銀の冬服",
+    "category": "cosmetic",
+    "buyPrice": 0,
+    "sellPrice": 0,
+    "effect": {
+      "wardrobeId": "outfit_winter"
+    },
+    "description": "厚手のケープ、手袋、ブーツの雪国衣装。",
+    "maxStack": 1,
+    "rarity": "special"
+  },
+  {
+    "id": "outfit_master",
+    "name": "魔物使いの正装",
+    "category": "cosmetic",
+    "buyPrice": 0,
+    "sellPrice": 0,
+    "effect": {
+      "wardrobeId": "outfit_master"
+    },
+    "description": "金の縁取りを持つ上級モンスターマスター風衣装。",
+    "maxStack": 1,
+    "rarity": "special"
+  }
+]

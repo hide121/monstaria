@@ -1,0 +1,397 @@
+[
+  {
+    "id": "sturdy_body",
+    "name": "頑丈な体",
+    "trigger": "passive",
+    "effect": {
+      "defPct": 0.1
+    },
+    "description": "守備力+10%。"
+  },
+  {
+    "id": "vital_body",
+    "name": "生命力",
+    "trigger": "passive",
+    "effect": {
+      "hpPct": 0.1
+    },
+    "description": "最大HP+10%。"
+  },
+  {
+    "id": "swift_step",
+    "name": "俊足",
+    "trigger": "passive",
+    "effect": {
+      "agiPct": 0.1
+    },
+    "description": "素早さ+10%。"
+  },
+  {
+    "id": "sharp_claws",
+    "name": "鋭い爪",
+    "trigger": "passive",
+    "effect": {
+      "atkPct": 0.1
+    },
+    "description": "攻撃力+10%。"
+  },
+  {
+    "id": "wise_mind",
+    "name": "賢い頭脳",
+    "trigger": "passive",
+    "effect": {
+      "wisPct": 0.1
+    },
+    "description": "賢さ+10%。"
+  },
+  {
+    "id": "mana_well",
+    "name": "魔力泉",
+    "trigger": "passive",
+    "effect": {
+      "mpPct": 0.12
+    },
+    "description": "最大MP+12%。"
+  },
+  {
+    "id": "critical_eye",
+    "name": "会心眼",
+    "trigger": "on_attack",
+    "effect": {
+      "critRateAdd": 0.04
+    },
+    "description": "会心率+4%。"
+  },
+  {
+    "id": "counter_skin",
+    "name": "反撃肌",
+    "trigger": "on_physical_hit",
+    "effect": {
+      "counterChance": 0.18,
+      "counterPower": 0.7
+    },
+    "description": "物理攻撃を18%で反撃。"
+  },
+  {
+    "id": "auto_hp_small",
+    "name": "小さな再生",
+    "trigger": "turn_end",
+    "effect": {
+      "healHpPct": 0.03
+    },
+    "description": "ターン終了時HP3%回復。"
+  },
+  {
+    "id": "auto_mp_small",
+    "name": "魔力循環",
+    "trigger": "turn_end",
+    "effect": {
+      "healMpPct": 0.03
+    },
+    "description": "ターン終了時MP3%回復。"
+  },
+  {
+    "id": "desperate_power",
+    "name": "背水",
+    "trigger": "hp_below_30",
+    "effect": {
+      "atkPct": 0.2,
+      "wisPct": 0.2
+    },
+    "description": "HP30%以下で攻撃・賢さ+20%。"
+  },
+  {
+    "id": "first_guard",
+    "name": "開幕防壁",
+    "trigger": "battle_start",
+    "effect": {
+      "damageReduction": 0.2,
+      "turns": 1
+    },
+    "description": "戦闘開始1ターン被ダメージ20%軽減。"
+  },
+  {
+    "id": "status_touch",
+    "name": "異常の手",
+    "trigger": "on_damage",
+    "effect": {
+      "statusChanceBonus": 0.1
+    },
+    "description": "状態異常付与率+10%。"
+  },
+  {
+    "id": "healing_grace",
+    "name": "癒し上手",
+    "trigger": "on_heal",
+    "effect": {
+      "healPowerPct": 0.2
+    },
+    "description": "回復量+20%。"
+  },
+  {
+    "id": "spell_focus",
+    "name": "魔法集中",
+    "trigger": "on_magic",
+    "effect": {
+      "magicPowerPct": 0.15
+    },
+    "description": "攻撃魔法威力+15%。"
+  },
+  {
+    "id": "breath_focus",
+    "name": "息吹強化",
+    "trigger": "on_breath",
+    "effect": {
+      "breathPowerPct": 0.15
+    },
+    "description": "ブレス威力+15%。"
+  },
+  {
+    "id": "physical_focus",
+    "name": "武闘本能",
+    "trigger": "on_physical",
+    "effect": {
+      "physicalPowerPct": 0.12
+    },
+    "description": "物理技威力+12%。"
+  },
+  {
+    "id": "scout_charm",
+    "name": "親和の眼差し",
+    "trigger": "on_scout",
+    "effect": {
+      "scoutPowerPct": 0.1
+    },
+    "description": "スカウト力+10%。"
+  },
+  {
+    "id": "rare_hunter",
+    "name": "希少感知",
+    "trigger": "passive",
+    "effect": {
+      "rareEncounterPct": 0.05
+    },
+    "description": "レア遭遇率をわずかに上げる。"
+  },
+  {
+    "id": "item_saver",
+    "name": "道具上手",
+    "trigger": "on_item",
+    "effect": {
+      "itemConsumeSaveChance": 0.15
+    },
+    "description": "15%で消耗品を消費しない。"
+  },
+  {
+    "id": "fire_boost",
+    "name": "火の申し子",
+    "trigger": "on_element",
+    "effect": {
+      "element": "fire",
+      "damagePct": 0.15
+    },
+    "description": "火属性ダメージ+15%。"
+  },
+  {
+    "id": "fire_guard",
+    "name": "火耐性",
+    "trigger": "passive",
+    "effect": {
+      "element": "fire",
+      "resistStep": 1
+    },
+    "description": "火属性耐性を1段階強化。"
+  },
+  {
+    "id": "ice_boost",
+    "name": "氷の申し子",
+    "trigger": "on_element",
+    "effect": {
+      "element": "ice",
+      "damagePct": 0.15
+    },
+    "description": "氷属性ダメージ+15%。"
+  },
+  {
+    "id": "ice_guard",
+    "name": "氷耐性",
+    "trigger": "passive",
+    "effect": {
+      "element": "ice",
+      "resistStep": 1
+    },
+    "description": "氷属性耐性を1段階強化。"
+  },
+  {
+    "id": "wind_boost",
+    "name": "風の申し子",
+    "trigger": "on_element",
+    "effect": {
+      "element": "wind",
+      "damagePct": 0.15
+    },
+    "description": "風属性ダメージ+15%。"
+  },
+  {
+    "id": "wind_guard",
+    "name": "風耐性",
+    "trigger": "passive",
+    "effect": {
+      "element": "wind",
+      "resistStep": 1
+    },
+    "description": "風属性耐性を1段階強化。"
+  },
+  {
+    "id": "earth_boost",
+    "name": "地の申し子",
+    "trigger": "on_element",
+    "effect": {
+      "element": "earth",
+      "damagePct": 0.15
+    },
+    "description": "地属性ダメージ+15%。"
+  },
+  {
+    "id": "earth_guard",
+    "name": "地耐性",
+    "trigger": "passive",
+    "effect": {
+      "element": "earth",
+      "resistStep": 1
+    },
+    "description": "地属性耐性を1段階強化。"
+  },
+  {
+    "id": "lightning_boost",
+    "name": "雷の申し子",
+    "trigger": "on_element",
+    "effect": {
+      "element": "lightning",
+      "damagePct": 0.15
+    },
+    "description": "雷属性ダメージ+15%。"
+  },
+  {
+    "id": "lightning_guard",
+    "name": "雷耐性",
+    "trigger": "passive",
+    "effect": {
+      "element": "lightning",
+      "resistStep": 1
+    },
+    "description": "雷属性耐性を1段階強化。"
+  },
+  {
+    "id": "light_boost",
+    "name": "光の申し子",
+    "trigger": "on_element",
+    "effect": {
+      "element": "light",
+      "damagePct": 0.15
+    },
+    "description": "光属性ダメージ+15%。"
+  },
+  {
+    "id": "light_guard",
+    "name": "光耐性",
+    "trigger": "passive",
+    "effect": {
+      "element": "light",
+      "resistStep": 1
+    },
+    "description": "光属性耐性を1段階強化。"
+  },
+  {
+    "id": "dark_boost",
+    "name": "闇の申し子",
+    "trigger": "on_element",
+    "effect": {
+      "element": "dark",
+      "damagePct": 0.15
+    },
+    "description": "闇属性ダメージ+15%。"
+  },
+  {
+    "id": "dark_guard",
+    "name": "闇耐性",
+    "trigger": "passive",
+    "effect": {
+      "element": "dark",
+      "resistStep": 1
+    },
+    "description": "闇属性耐性を1段階強化。"
+  },
+  {
+    "id": "pack_instinct",
+    "name": "群れの本能",
+    "trigger": "passive",
+    "effect": {
+      "atkPctWhenFullParty": 0.08
+    },
+    "description": "味方3体が生存中、攻撃+8%。"
+  },
+  {
+    "id": "dragon_scale",
+    "name": "竜鱗",
+    "trigger": "passive",
+    "effect": {
+      "damageReduction": 0.06
+    },
+    "description": "常時被ダメージ6%軽減。"
+  },
+  {
+    "id": "rooted_life",
+    "name": "根の生命",
+    "trigger": "passive",
+    "effect": {
+      "healHpPct": 0.02
+    },
+    "description": "ターン終了時HP2%回復。"
+  },
+  {
+    "id": "malice",
+    "name": "魔力の悪意",
+    "trigger": "passive",
+    "effect": {
+      "wisPct": 0.08
+    },
+    "description": "賢さ+8%。"
+  },
+  {
+    "id": "deathless",
+    "name": "不死の執念",
+    "trigger": "passive",
+    "effect": {
+      "surviveChance": 0.12
+    },
+    "description": "致死ダメージを12%でHP1で耐える。"
+  },
+  {
+    "id": "hard_shell",
+    "name": "硬質装甲",
+    "trigger": "passive",
+    "effect": {
+      "defPct": 0.08
+    },
+    "description": "守備+8%。"
+  },
+  {
+    "id": "ether_body",
+    "name": "霊素体",
+    "trigger": "passive",
+    "effect": {
+      "mpPct": 0.08
+    },
+    "description": "最大MP+8%。"
+  },
+  {
+    "id": "divine_aura",
+    "name": "神獣の威光",
+    "trigger": "passive",
+    "effect": {
+      "allStatsPct": 0.04
+    },
+    "description": "全能力+4%。"
+  }
+]
