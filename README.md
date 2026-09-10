@@ -21,3 +21,5 @@ iPhoneはSafariの共有メニューから「ホーム画面に追加」し、�
 
 輪廻の杖による種族維持配合、配合＋でのLv99上限解放、ランクなどの並べ替え、メタル系の特攻・逃走・スカウト調整を追加しました。上限の段階と装備効果は仲間・配合画面で確認できます。
 
+
+0911a: Added trained SS-line anti-metal skill and alchemy-only anti-metal accessory. Save and offline compatibility verified.
