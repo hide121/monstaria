@@ -23,3 +23,5 @@ iPhoneはSafariの共有メニューから「ホーム画面に追加」し、�
 
 
 0911a: Added trained SS-line anti-metal skill and alchemy-only anti-metal accessory. Save and offline compatibility verified.
+
+0911b: Silver secret metal damage increased to 6.
